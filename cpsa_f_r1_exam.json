@@ -1,0 +1,1229 @@
+{
+  "exam": {
+    "title": "iSAQB CPSA-F – Vollständige R1-Übungsprüfung (Curriculum 2025.1-rev2)",
+    "time_limit_minutes": 90,
+    "pass_threshold": 0.6,
+    "questions": [
+
+      {
+        "id": 1, "lz": "01-01", "type": "A", "points": 1,
+        "question": "Welches gemeinsame Element findet sich in fast allen gängigen Definitionen von Softwarearchitektur?",
+        "options": [
+          {"id": "a", "text": "Deployment-Skripte und CI/CD-Pipelines"},
+          {"id": "b", "text": "Komponenten/Bausteine mit Schnittstellen und Beziehungen"},
+          {"id": "c", "text": "Unit-Tests und Testabdeckungsgrade"},
+          {"id": "d", "text": "Programmiersprachen und Entwicklungsframeworks"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 2, "lz": "01-01", "type": "P", "points": 1, "required": 3,
+        "question": "Welche DREI der folgenden Aspekte werden in typischen Definitionen von Softwarearchitektur abgedeckt?",
+        "options": [
+          {"id": "a", "text": "Komponenten/Bausteine"},
+          {"id": "b", "text": "Querschnittsthemen"},
+          {"id": "c", "text": "Deployment-Pipelines"},
+          {"id": "d", "text": "Schnittstellen und Beziehungen zwischen Bausteinen"},
+          {"id": "e", "text": "Code-Formatierungsregeln"}
+        ],
+        "correct": ["a", "b", "d"]
+      },
+
+      {
+        "id": 3, "lz": "01-01", "type": "K", "points": 1,
+        "question": "Ist der folgende Aspekt Bestandteil von Softwarearchitektur oder nicht?",
+        "categories": ["Bestandteil von Softwarearchitektur", "kein Bestandteil von Softwarearchitektur"],
+        "options": [
+          {"id": "a", "text": "Strukturentscheidungen hinsichtlich Systemzerlegung", "correct": "Bestandteil von Softwarearchitektur"},
+          {"id": "b", "text": "Codierungskonventionen (z. B. Einrückungsregeln)", "correct": "kein Bestandteil von Softwarearchitektur"},
+          {"id": "c", "text": "Querschnittskonzepte wie Persistenz und Fehlerbehandlung", "correct": "Bestandteil von Softwarearchitektur"},
+          {"id": "d", "text": "Hardware-Preisverhandlungen mit Lieferanten", "correct": "kein Bestandteil von Softwarearchitektur"}
+        ]
+      },
+
+      {
+        "id": 4, "lz": "01-01", "type": "A", "points": 1,
+        "question": "Was versteht man unter einer Architekturentscheidung im Sinne des iSAQB-Curriculums?",
+        "options": [
+          {"id": "a", "text": "Eine Entscheidung, die ausschließlich von der Projektleitung getroffen wird"},
+          {"id": "b", "text": "Eine Entscheidung mit strukturellen Auswirkungen auf das gesamte System und seinen Lebenszyklus"},
+          {"id": "c", "text": "Eine Entscheidung über die Wahl der Entwicklungsumgebung"},
+          {"id": "d", "text": "Eine technische Entscheidung, die nach der Implementierung nicht mehr geändert werden kann"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 5, "lz": "01-02", "type": "P", "points": 1, "required": 2,
+        "question": "Was sind die ZWEI wichtigsten Ziele von Softwarearchitektur?",
+        "options": [
+          {"id": "a", "text": "Verbesserung der Code-Testabdeckung"},
+          {"id": "b", "text": "Erreichung der Qualitätsanforderungen auf nachvollziehbare Weise"},
+          {"id": "c", "text": "Ermöglichung eines grundlegenden Verständnisses der Strukturen und Konzepte des Systems"},
+          {"id": "d", "text": "Senkung der Lizenzkosten für Entwicklungswerkzeuge"}
+        ],
+        "correct": ["b", "c"]
+      },
+
+      {
+        "id": 6, "lz": "01-02", "type": "A", "points": 1,
+        "question": "Welches der folgenden ist KEIN primäres Ziel von Softwarearchitektur?",
+        "options": [
+          {"id": "a", "text": "Komplexität systematisch zu reduzieren"},
+          {"id": "b", "text": "Qualitätsanforderungen zu erfüllen"},
+          {"id": "c", "text": "Die exakte Anzahl der Code-Kommentare festzulegen"},
+          {"id": "d", "text": "Architekturrelevante Richtlinien für Implementierung und Betrieb zu spezifizieren"}
+        ],
+        "correct": "c"
+      },
+
+      {
+        "id": 7, "lz": "01-02", "type": "K", "points": 2,
+        "question": "Welche der folgenden Aussagen zu den Zielen von Softwarearchitektur sind richtig oder falsch?",
+        "categories": ["richtig", "falsch"],
+        "options": [
+          {"id": "a", "text": "Softwarearchitektur unterstützt Entwurf, Implementierung, Pflege und Betrieb von Systemen", "correct": "richtig"},
+          {"id": "b", "text": "Softwarearchitektur hat keinen Einfluss auf Qualitätsmerkmale wie Wartbarkeit oder Sicherheit", "correct": "falsch"},
+          {"id": "c", "text": "Softwarearchitektur hilft, Komplexität systematisch zu reduzieren", "correct": "richtig"},
+          {"id": "d", "text": "Softwarearchitektur ersetzt vollständig das Anforderungsmanagement", "correct": "falsch"}
+        ]
+      },
+
+      {
+        "id": 8, "lz": "01-02", "type": "P", "points": 1, "required": 3,
+        "question": "Welche DREI Qualitätseigenschaften soll Softwarearchitektur laut Curriculum explizit unterstützen?",
+        "options": [
+          {"id": "a", "text": "Zuverlässigkeit"},
+          {"id": "b", "text": "Wartbarkeit"},
+          {"id": "c", "text": "Grammatikprüfung in Dokumenten"},
+          {"id": "d", "text": "Sicherheit"},
+          {"id": "e", "text": "Büroflächenplanung"}
+        ],
+        "correct": ["a", "b", "d"]
+      },
+
+      {
+        "id": 9, "lz": "01-04", "type": "P", "points": 1, "required": 3,
+        "question": "Was sind DREI typische Aufgaben von Softwarearchitekt:innen?",
+        "options": [
+          {"id": "a", "text": "Anforderungen und Randbedingungen klären und hinterfragen"},
+          {"id": "b", "text": "Das Wartungsbudget eigenständig verhandeln"},
+          {"id": "c", "text": "Strukturentscheidungen hinsichtlich Systemzerlegung und Bausteinstruktur treffen"},
+          {"id": "d", "text": "Die Softwarearchitektur kommunizieren und dokumentieren"},
+          {"id": "e", "text": "Mitarbeiter:innen einstellen und entlassen"}
+        ],
+        "correct": ["a", "c", "d"]
+      },
+
+      {
+        "id": 10, "lz": "01-04", "type": "K", "points": 2,
+        "question": "Handelt es sich bei der folgenden Tätigkeit um eine Aufgabe des Softwarearchitekten oder nicht?",
+        "categories": ["Aufgabe des Architekten", "keine Aufgabe des Architekten"],
+        "options": [
+          {"id": "a", "text": "Konsistenz zwischen Quellcode und Softwarearchitektur prüfen und sicherstellen", "correct": "Aufgabe des Architekten"},
+          {"id": "b", "text": "Das Projektbudget eigenverantwortlich verwalten", "correct": "keine Aufgabe des Architekten"},
+          {"id": "c", "text": "Risiken von Architekturentscheidungen identifizieren und aufzeigen", "correct": "Aufgabe des Architekten"},
+          {"id": "d", "text": "Jede einzelne Codezeile des Systems selbst schreiben", "correct": "keine Aufgabe des Architekten"}
+        ]
+      },
+
+      {
+        "id": 11, "lz": "01-04", "type": "A", "points": 1,
+        "question": "Was ist die Hauptverantwortung von Softwarearchitekt:innen?",
+        "options": [
+          {"id": "a", "text": "Die tägliche Aufgabenplanung für das Entwicklungsteam"},
+          {"id": "b", "text": "Die Erreichung der Anforderungen und die Entwicklung der Architektur der Lösung"},
+          {"id": "c", "text": "Die Erstellung der vollständigen Testdokumentation"},
+          {"id": "d", "text": "Die Genehmigung aller Designentscheidungen der Entwickler"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 12, "lz": "01-04", "type": "P", "points": 1, "required": 2,
+        "question": "Was müssen Softwarearchitekt:innen in Bezug auf Anforderungen tun?",
+        "options": [
+          {"id": "a", "text": "Alle Anforderungen eigenständig und ohne Rücksprache formulieren"},
+          {"id": "b", "text": "Anforderungen auf technische Machbarkeit überprüfen"},
+          {"id": "c", "text": "Fachexpert:innen bei der Formulierung von Qualitätsanforderungen unterstützen"},
+          {"id": "d", "text": "Anforderungen mit technischen Risiken pauschal ablehnen"}
+        ],
+        "correct": ["b", "c"]
+      },
+
+      {
+        "id": 13, "lz": "01-06", "type": "K", "points": 1,
+        "question": "Ist folgende Stakeholder-Anliegen-Zuordnung korrekt?",
+        "categories": ["korrekte Zuordnung", "falsche Zuordnung"],
+        "options": [
+          {"id": "a", "text": "Qualitätssicherung – Anliegen: isoliertes Testen von Komponenten", "correct": "korrekte Zuordnung"},
+          {"id": "b", "text": "Projektmanagement – Anliegen: ausschließlich fachliche Erfüllung von Anforderungen", "correct": "falsche Zuordnung"},
+          {"id": "c", "text": "Betrieb – Anliegen: Infrastrukturanforderungen im Zusammenhang mit dem Betrieb", "correct": "korrekte Zuordnung"},
+          {"id": "d", "text": "Entwicklungsteam – Anliegen: zu implementierende Komponenten und Schnittstellen", "correct": "korrekte Zuordnung"}
+        ]
+      },
+
+      {
+        "id": 14, "lz": "01-06", "type": "P", "points": 1, "required": 3,
+        "question": "Mit welchen DREI Rollen arbeitet eine Softwarearchitektin laut Curriculum typischerweise zusammen?",
+        "options": [
+          {"id": "a", "text": "Produktmanagement / Product Owner"},
+          {"id": "b", "text": "Qualitätssicherung und Test"},
+          {"id": "c", "text": "IT-Betrieb"},
+          {"id": "d", "text": "Buchführung und Controlling"},
+          {"id": "e", "text": "Facility Management"}
+        ],
+        "correct": ["a", "b", "c"]
+      },
+
+      {
+        "id": 15, "lz": "01-06", "type": "A", "points": 1,
+        "question": "Was ist eine wesentliche Aufgabe eines Architekten gegenüber dem Entwicklungsteam?",
+        "options": [
+          {"id": "a", "text": "Alle Designentscheidungen auf Detailcode-Ebene vorzugeben"},
+          {"id": "b", "text": "Architekturentscheidungen und ihre Konsequenzen zu kommunizieren"},
+          {"id": "c", "text": "Die tägliche Aufgabenverteilung zu übernehmen"},
+          {"id": "d", "text": "Die Programmiersprache für jeden einzelnen Baustein festzulegen"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 16, "lz": "02-01", "type": "K", "points": 2,
+        "question": "Welche Anliegen sind typisch für welchen Stakeholder?",
+        "categories": ["Anliegen des Projektmanagements", "Anliegen des Entwicklungsteams"],
+        "options": [
+          {"id": "a", "text": "Benötigte Zeit und Budget für die Umsetzung der Anforderungen", "correct": "Anliegen des Projektmanagements"},
+          {"id": "b", "text": "Zu implementierende Komponenten und Schnittstellen", "correct": "Anliegen des Entwicklungsteams"},
+          {"id": "c", "text": "Risiken des gewählten architekturellen Ansatzes", "correct": "Anliegen des Projektmanagements"},
+          {"id": "d", "text": "Technische Anforderungen und Randbedingungen", "correct": "Anliegen des Entwicklungsteams"}
+        ]
+      },
+
+      {
+        "id": 17, "lz": "02-01", "type": "P", "points": 1, "required": 2,
+        "question": "Was sollte ein Architekt tun, wenn er Konflikte zwischen kurz- und langfristigen Stakeholder-Zielen erkennt?",
+        "options": [
+          {"id": "a", "text": "Stets den Stakeholder mit dem größten Einfluss bevorzugen"},
+          {"id": "b", "text": "Die relevanten Stakeholder einbeziehen, um Konflikte zu lösen"},
+          {"id": "c", "text": "Konflikte ignorieren und auf eine Lösung durch andere hoffen"},
+          {"id": "d", "text": "Kurz- und langfristige Ziele identifizieren und transparent abwägen"}
+        ],
+        "correct": ["b", "d"]
+      },
+
+      {
+        "id": 18, "lz": "02-01", "type": "A", "points": 1,
+        "question": "Was sollte ein Architekt tun, wenn Stakeholder-Anliegen miteinander in Konflikt stehen?",
+        "options": [
+          {"id": "a", "text": "Ausschließlich technische Kriterien zur Entscheidung heranziehen"},
+          {"id": "b", "text": "Die relevanten Stakeholder einbeziehen, um Konflikte aufzulösen"},
+          {"id": "c", "text": "Stets den Geschäftszielen uneingeschränkt Vorrang einräumen"},
+          {"id": "d", "text": "Alle Anforderungen gleichzeitig erfüllen, unabhängig von Konflikten"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 19, "lz": "02-01", "type": "K", "points": 2,
+        "question": "Welche der folgenden Aussagen zu Stakeholder-Anliegen sind richtig oder falsch?",
+        "categories": ["richtig", "falsch"],
+        "options": [
+          {"id": "a", "text": "Nicht alle Anliegen der Stakeholder können in Anforderungen umgesetzt werden, müssen aber berücksichtigt werden", "correct": "richtig"},
+          {"id": "b", "text": "Stakeholder-Anliegen sind stets vollständig und widerspruchsfrei", "correct": "falsch"},
+          {"id": "c", "text": "Ein Architekt muss Stakeholder-Anliegen bei der Architekturarbeit berücksichtigen", "correct": "richtig"},
+          {"id": "d", "text": "Nur technische Stakeholder haben relevante Anliegen für die Architektur", "correct": "falsch"}
+        ]
+      },
+
+      {
+        "id": 20, "lz": "02-02", "type": "P", "points": 1, "required": 2,
+        "question": "Was sind produktbezogene Anforderungen im Sinne des iSAQB-Curriculums?",
+        "options": [
+          {"id": "a", "text": "Verfügbarkeit von Projektbudget"},
+          {"id": "b", "text": "Funktionale Anforderungen"},
+          {"id": "c", "text": "Qualitätsanforderungen"},
+          {"id": "d", "text": "Personalplanung des Teams"}
+        ],
+        "correct": ["b", "c"]
+      },
+
+      {
+        "id": 21, "lz": "02-02", "type": "K", "points": 2,
+        "question": "Handelt es sich bei der folgenden Randbedingung um eine technologische oder eine organisatorische?",
+        "categories": ["technologische Randbedingung", "organisatorische Randbedingung"],
+        "options": [
+          {"id": "a", "text": "Referenzarchitekturen, Bibliotheken und Frameworks", "correct": "technologische Randbedingung"},
+          {"id": "b", "text": "Organisationsstruktur der Entwicklungsteams (Gesetz von Conway)", "correct": "organisatorische Randbedingung"},
+          {"id": "c", "text": "Bestehende Hardware- und Software-Infrastruktur", "correct": "technologische Randbedingung"},
+          {"id": "d", "text": "Verfügbarkeit von Ressourcen wie Budget und Personal", "correct": "organisatorische Randbedingung"}
+        ]
+      },
+
+      {
+        "id": 22, "lz": "02-02", "type": "A", "points": 1,
+        "question": "Was besagt das Gesetz von Conway (Conway's Law)?",
+        "options": [
+          {"id": "a", "text": "Software-Systeme neigen dazu, im Laufe der Zeit zu wachsen und komplexer zu werden"},
+          {"id": "b", "text": "Die Qualität von Software hängt direkt von der Testabdeckung ab"},
+          {"id": "c", "text": "Softwaresysteme spiegeln die Kommunikationsstruktur der sie entwickelnden Organisation wider"},
+          {"id": "d", "text": "Komplexe Systeme müssen zwingend als Microservices entworfen werden"}
+        ],
+        "correct": "c"
+      },
+
+      {
+        "id": 23, "lz": "02-02", "type": "P", "points": 1, "required": 3,
+        "question": "Welche DREI der folgenden Faktoren können den Architekturentwurf beeinflussen?",
+        "options": [
+          {"id": "a", "text": "Politische Faktoren"},
+          {"id": "b", "text": "Organisatorische Faktoren"},
+          {"id": "c", "text": "Technische Faktoren"},
+          {"id": "d", "text": "Virtuelle Faktoren"}
+        ],
+        "correct": ["a", "b", "c"]
+      },
+
+      {
+        "id": 24, "lz": "02-02", "type": "K", "points": 2,
+        "question": "Welche der folgenden Aussagen zu Anforderungen und Randbedingungen sind richtig oder falsch?",
+        "categories": ["richtig", "falsch"],
+        "options": [
+          {"id": "a", "text": "Randbedingungen können Auswirkungen auf die Architektur und die Architekturarbeit haben", "correct": "richtig"},
+          {"id": "b", "text": "Technologische Randbedingungen spielen keine Rolle beim Architekturentwurf", "correct": "falsch"},
+          {"id": "c", "text": "Architekturentscheidungen können zu zusätzlichen Anforderungen führen oder Änderungen an bestehenden erforderlich machen", "correct": "richtig"},
+          {"id": "d", "text": "Regulatorische Randbedingungen müssen nur bei öffentlichen Aufträgen berücksichtigt werden", "correct": "falsch"}
+        ]
+      },
+
+      {
+        "id": 25, "lz": "02-03", "type": "A", "points": 1,
+        "question": "Wie können abstrakte Qualitätsanforderungen (z. B. aus ISO 25010) am besten konkretisiert werden?",
+        "options": [
+          {"id": "a", "text": "Durch die Entwicklung von UI-Prototypen"},
+          {"id": "b", "text": "Durch das Definieren expliziter Schnittstellen"},
+          {"id": "c", "text": "Durch das Erstellen, Verfassen oder Diskutieren von Qualitätsszenarien"},
+          {"id": "d", "text": "Durch das Erstellen automatisierter Tests"}
+        ],
+        "correct": "c"
+      },
+
+      {
+        "id": 26, "lz": "02-03", "type": "P", "points": 1, "required": 3,
+        "question": "Welche DREI der folgenden sind typische Qualitätsmerkmale gemäß ISO/IEC 25010 (Produktqualität)?",
+        "options": [
+          {"id": "a", "text": "Zuverlässigkeit (Reliability)"},
+          {"id": "b", "text": "Refactoring-Fähigkeit"},
+          {"id": "c", "text": "Sicherheit (Security)"},
+          {"id": "d", "text": "Wartbarkeit (Maintainability)"},
+          {"id": "e", "text": "Continuous-Integration-Pipeline"}
+        ],
+        "correct": ["a", "c", "d"]
+      },
+
+      {
+        "id": 27, "lz": "02-03", "type": "K", "points": 2,
+        "question": "Welche der folgenden Qualitätspaare stehen typischerweise miteinander in Konflikt?",
+        "categories": ["typischer Konflikt", "kein typischer Konflikt"],
+        "options": [
+          {"id": "a", "text": "Benutzerfreundlichkeit – Sicherheit", "correct": "typischer Konflikt"},
+          {"id": "b", "text": "Verständlichkeit – Lesbarkeit", "correct": "kein typischer Konflikt"},
+          {"id": "c", "text": "Laufzeitkonfigurierbarkeit – Robustheit", "correct": "typischer Konflikt"},
+          {"id": "d", "text": "Sicherheit – Funktionale Korrektheit", "correct": "kein typischer Konflikt"}
+        ]
+      },
+
+      {
+        "id": 28, "lz": "02-03", "type": "A", "points": 1,
+        "question": "Was ist ein Qualitätsszenario im Kontext der Softwarearchitektur?",
+        "options": [
+          {"id": "a", "text": "Eine automatisierte Testsuite für Qualitätschecks"},
+          {"id": "b", "text": "Eine konkrete Beschreibung, wie ein System auf einen Stimulus reagieren soll (Kontext, Stimulus, Reaktion, Messung)"},
+          {"id": "c", "text": "Ein Diagramm, das alle Qualitätsmerkmale des Systems visualisiert"},
+          {"id": "d", "text": "Ein Workshop-Format zur Diskussion von Qualitätszielen"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 29, "lz": "02-03", "type": "K", "points": 2,
+        "question": "Handelt es sich um einen typischen Qualitätszielkonflikt oder nicht?",
+        "categories": ["typischer Qualitätszielkonflikt", "kein typischer Qualitätszielkonflikt"],
+        "options": [
+          {"id": "a", "text": "Konfigurierbarkeit versus Zuverlässigkeit", "correct": "typischer Qualitätszielkonflikt"},
+          {"id": "b", "text": "Hohe Performance versus hohe Performance", "correct": "kein typischer Qualitätszielkonflikt"},
+          {"id": "c", "text": "Speicherbedarf versus Leistungseffizienz", "correct": "typischer Qualitätszielkonflikt"},
+          {"id": "d", "text": "Laufzeitflexibilität versus Wartbarkeit", "correct": "typischer Qualitätszielkonflikt"}
+        ]
+      },
+
+      {
+        "id": 30, "lz": "02-04", "type": "A", "points": 1,
+        "question": "Welche Elemente enthält ein vollständiges Qualitätsszenario?",
+        "options": [
+          {"id": "a", "text": "Nur die gewünschte Systemreaktion"},
+          {"id": "b", "text": "Kontext, Stimulus, Reaktion und Messung"},
+          {"id": "c", "text": "Stakeholder, Risiken und Kosten"},
+          {"id": "d", "text": "UML-Diagramme und Codeschnipsel"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 31, "lz": "02-04", "type": "K", "points": 2,
+        "question": "Welche der folgenden Aussagen zu Qualitätsszenarien sind richtig oder falsch?",
+        "categories": ["richtig", "falsch"],
+        "options": [
+          {"id": "a", "text": "Qualitätsszenarien helfen, Anforderungen zu klären", "correct": "richtig"},
+          {"id": "b", "text": "Ein Qualitätsszenario ersetzt vollständig die Anforderungsspezifikation", "correct": "falsch"},
+          {"id": "c", "text": "Qualitätsszenarien können als Input für Architekturbewertungen dienen", "correct": "richtig"},
+          {"id": "d", "text": "Qualitätsszenarien sind ausschließlich für nicht-funktionale Anforderungen nutzbar", "correct": "falsch"}
+        ]
+      },
+
+      {
+        "id": 32, "lz": "02-04", "type": "P", "points": 1, "required": 2,
+        "question": "Welche ZWEI Zwecke erfüllen Qualitätsszenarien?",
+        "options": [
+          {"id": "a", "text": "Anforderungen klären und explizit machen"},
+          {"id": "b", "text": "Code automatisch generieren"},
+          {"id": "c", "text": "Input für Architekturbewertungen liefern"},
+          {"id": "d", "text": "Deployment-Prozesse steuern"}
+        ],
+        "correct": ["a", "c"]
+      },
+
+      {
+        "id": 33, "lz": "02-05", "type": "K", "points": 2,
+        "question": "Welche Aussagen zum Prinzip 'explizit statt implizit' sind richtig oder falsch?",
+        "categories": ["richtig", "falsch"],
+        "options": [
+          {"id": "a", "text": "Implizite Annahmen können zu Missverständnissen zwischen Stakeholdern führen", "correct": "richtig"},
+          {"id": "b", "text": "Explizite Annahmen sind stets zeitaufwändig und daher grundsätzlich zu vermeiden", "correct": "falsch"},
+          {"id": "c", "text": "Architekt:innen sollten die Voraussetzungen für ihre Entscheidungen explizit darlegen", "correct": "richtig"},
+          {"id": "d", "text": "Implizite Annahmen sind präziser und verlässlicher als explizite Aussagen", "correct": "falsch"}
+        ]
+      },
+
+      {
+        "id": 34, "lz": "02-05", "type": "A", "points": 1,
+        "question": "Warum sollten Architekten Annahmen explizit machen?",
+        "options": [
+          {"id": "a", "text": "Um die Dokumentation möglichst umfangreich zu gestalten"},
+          {"id": "b", "text": "Um potenzielle Missverständnisse zwischen beteiligten Stakeholdern zu vermeiden"},
+          {"id": "c", "text": "Weil es eine gesetzliche Pflicht im Rahmen der DSGVO ist"},
+          {"id": "d", "text": "Um Anforderungen vollständig zu ersetzen"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 35, "lz": "02-05", "type": "P", "points": 1, "required": 2,
+        "question": "Was sollte eine Softwarearchitektin explizit formulieren?",
+        "options": [
+          {"id": "a", "text": "Alle privaten Variablennamen im Quellcode"},
+          {"id": "b", "text": "Die Annahmen, die zu einer Architekturentscheidung geführt haben"},
+          {"id": "c", "text": "Die Voraussetzungen, unter denen eine Architekturentscheidung gilt"},
+          {"id": "d", "text": "Die vollständige interne Implementierung aller Bausteine"}
+        ],
+        "correct": ["b", "c"]
+      },
+
+      {
+        "id": 36, "lz": "03-01", "type": "K", "points": 2,
+        "question": "Ist die folgende Aktivität geeignet, Qualitätsziele durch Architektur zu erreichen?",
+        "categories": ["geeignet, um Qualitätsziele zu erreichen", "nicht direkt auf Qualitätsziele ausgerichtet"],
+        "options": [
+          {"id": "a", "text": "Bewusste Wahl von Architekturmustern in Abhängigkeit von Qualitätszielen", "correct": "geeignet, um Qualitätsziele zu erreichen"},
+          {"id": "b", "text": "Festlegung von Codeformatierungsregeln (z. B. Einrückung)", "correct": "nicht direkt auf Qualitätsziele ausgerichtet"},
+          {"id": "c", "text": "Gezieltes Abwägen von Entwurfsalternativen hinsichtlich ihrer Qualitätsauswirkungen", "correct": "geeignet, um Qualitätsziele zu erreichen"},
+          {"id": "d", "text": "Planung von Team-Building-Events", "correct": "nicht direkt auf Qualitätsziele ausgerichtet"}
+        ]
+      },
+
+      {
+        "id": 37, "lz": "03-01", "type": "A", "points": 1,
+        "question": "Woran sollten architektonische Aktivitäten laut Curriculum primär ausgerichtet sein?",
+        "options": [
+          {"id": "a", "text": "An der Minimierung der Implementierungszeit"},
+          {"id": "b", "text": "An der Erreichung oder Verbesserung spezifischer Qualitäten"},
+          {"id": "c", "text": "An der Maximierung der Anzahl von Bausteinen"},
+          {"id": "d", "text": "An der Vereinfachung des Deployment-Prozesses"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 38, "lz": "03-01", "type": "P", "points": 1, "required": 2,
+        "question": "Was kann ein Architekt tun, um Qualitätsziele für ein System zu erreichen?",
+        "options": [
+          {"id": "a", "text": "Mögliche Abwägungen zwischen Entwürfen sowie entsprechende Risiken identifizieren und kommunizieren"},
+          {"id": "b", "text": "Immer die neueste verfügbare Technologie einsetzen"},
+          {"id": "c", "text": "Einen Architekturentwurf vorschlagen, der geeignet ist, Anforderungen zu erfüllen"},
+          {"id": "d", "text": "Alle Architekturentscheidungen von der Projektleitung genehmigen lassen"}
+        ],
+        "correct": ["a", "c"]
+      },
+
+      {
+        "id": 39, "lz": "03-02", "type": "A", "points": 1,
+        "question": "Was beschreibt eine Blackbox-Sicht auf einen Softwarebaustein?",
+        "options": [
+          {"id": "a", "text": "Die interne Implementierung und alle privaten Methoden"},
+          {"id": "b", "text": "Ausschließlich die öffentlichen Schnittstellen und Verantwortlichkeiten des Bausteins"},
+          {"id": "c", "text": "Den vollständigen Quellcode des Bausteins"},
+          {"id": "d", "text": "Die Datenbankstruktur, die vom Baustein verwendet wird"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 40, "lz": "03-02", "type": "P", "points": 1, "required": 2,
+        "question": "Was gehört in eine Blackbox-Beschreibung eines Bausteins?",
+        "options": [
+          {"id": "a", "text": "Öffentliche Schnittstellen des Bausteins"},
+          {"id": "b", "text": "Interne Struktur des Bausteins"},
+          {"id": "c", "text": "Verantwortlichkeiten des Bausteins"},
+          {"id": "d", "text": "Detaillierte Implementierungsentscheidungen"}
+        ],
+        "correct": ["a", "c"]
+      },
+
+      {
+        "id": 41, "lz": "03-02", "type": "K", "points": 2,
+        "question": "Welche der folgenden Aussagen zum Architekturentwurf sind richtig oder falsch?",
+        "categories": ["richtig", "falsch"],
+        "options": [
+          {"id": "a", "text": "Beim Entwurf sollten Abhängigkeiten zwischen Bausteinen festgelegt werden", "correct": "richtig"},
+          {"id": "b", "text": "Jeder Architekt muss alle Codezeilen selbst schreiben", "correct": "falsch"},
+          {"id": "c", "text": "Risiken von Architekturentscheidungen sollten identifiziert werden", "correct": "richtig"},
+          {"id": "d", "text": "Ein Architekturentwurf muss zwingend vollständig sein, bevor die Implementierung beginnt", "correct": "falsch"}
+        ]
+      },
+
+      {
+        "id": 42, "lz": "03-02", "type": "A", "points": 1,
+        "question": "Was unterscheidet das Top-Down- vom Bottom-Up-Vorgehen beim Architekturentwurf?",
+        "options": [
+          {"id": "a", "text": "Top-Down startet mit der Implementierung, Bottom-Up mit den Anforderungen"},
+          {"id": "b", "text": "Top-Down startet mit der Gesamtstruktur und verfeinert schrittweise; Bottom-Up startet mit bekannten Bausteinen und integriert sie"},
+          {"id": "c", "text": "Top-Down ist prinzipiell immer besser als Bottom-Up"},
+          {"id": "d", "text": "Es gibt keinen wesentlichen Unterschied zwischen beiden Vorgehensweisen"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 43, "lz": "03-02", "type": "P", "points": 1, "required": 3,
+        "question": "Welche DREI der folgenden Sichten werden typischerweise beim Architekturentwurf erstellt?",
+        "options": [
+          {"id": "a", "text": "Bausteinsicht"},
+          {"id": "b", "text": "Laufzeitsicht"},
+          {"id": "c", "text": "Physische Datenbanksicht"},
+          {"id": "d", "text": "Verteilungs-/Deploymentsicht"},
+          {"id": "e", "text": "Testbasierte Sicht"}
+        ],
+        "correct": ["a", "b", "d"]
+      },
+
+      {
+        "id": 44, "lz": "03-03", "type": "P", "points": 1, "required": 3,
+        "question": "Welche DREI der folgenden Ansätze kommen in der Praxis beim Architekturentwurf am häufigsten vor?",
+        "options": [
+          {"id": "a", "text": "User-Interface Driven Design"},
+          {"id": "b", "text": "Domain-driven Design"},
+          {"id": "c", "text": "Sichtenbasierte Architekturentwicklung"},
+          {"id": "d", "text": "Bottom-up Design"},
+          {"id": "e", "text": "Entscheidung per Mehrheitsentscheid"}
+        ],
+        "correct": ["b", "c", "d"]
+      },
+
+      {
+        "id": 45, "lz": "03-03", "type": "A", "points": 1,
+        "question": "Was ist ein wesentliches Merkmal des sichtenbasierten Architekturentwurfs?",
+        "options": [
+          {"id": "a", "text": "Die Architektur wird ausschließlich in Codeform festgehalten"},
+          {"id": "b", "text": "Verschiedene Aspekte des Systems werden aus unterschiedlichen Perspektiven beschrieben, um verschiedene Stakeholder-Anliegen zu adressieren"},
+          {"id": "c", "text": "Alle Aspekte der Architektur werden in einem einzigen Diagramm dargestellt"},
+          {"id": "d", "text": "Der Entwurf erfolgt immer streng in aufsteigender Reihenfolge"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 46, "lz": "03-03", "type": "K", "points": 2,
+        "question": "Handelt es sich um eine korrekte Beschreibung des Entwurfsansatzes?",
+        "categories": ["korrekte Beschreibung", "falsche Beschreibung"],
+        "options": [
+          {"id": "a", "text": "Top-Down: Beginnt mit einer Gesamtstruktur und verfeinert schrittweise", "correct": "korrekte Beschreibung"},
+          {"id": "b", "text": "Bottom-Up: Startet zwingend immer mit dem Datenbankschema", "correct": "falsche Beschreibung"},
+          {"id": "c", "text": "Sichtenbasiert: Beschreibt das System aus verschiedenen Perspektiven für verschiedene Stakeholder", "correct": "korrekte Beschreibung"},
+          {"id": "d", "text": "Domain-driven Design: Ignoriert die fachliche Domäne vollständig zugunsten technischer Aspekte", "correct": "falsche Beschreibung"}
+        ]
+      },
+
+      {
+        "id": 47, "lz": "03-04", "type": "A", "points": 1,
+        "question": "Was beschreibt das Information-Hiding-Prinzip (Geheimnisprinzip)?",
+        "options": [
+          {"id": "a", "text": "Passwörter und sicherheitskritische Daten werden verschlüsselt gespeichert"},
+          {"id": "b", "text": "Implementierungsdetails eines Bausteins werden vor seinen Nutzern verborgen, um spätere Änderungen zu erleichtern"},
+          {"id": "c", "text": "Alle internen Methoden werden als private deklariert"},
+          {"id": "d", "text": "Schnittstellen werden ausschließlich öffentlich dokumentiert"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 48, "lz": "03-04", "type": "K", "points": 2,
+        "question": "Welche der folgenden Aussagen zum Entwurfsprinzip 'Information Hiding' sind richtig oder falsch?",
+        "categories": ["richtig", "falsch"],
+        "options": [
+          {"id": "a", "text": "Durch Information Hiding wird die Flexibilität für Änderungen erhöht", "correct": "richtig"},
+          {"id": "b", "text": "Beim Information Hiding werden absichtlich Informationen vor Aufrufern verborgen", "correct": "richtig"},
+          {"id": "c", "text": "Information Hiding erschwert das Bottom-Up-Vorgehen", "correct": "falsch"},
+          {"id": "d", "text": "Information Hiding ist vom Ansatz der inkrementellen Verfeinerung entlang des Kontrollflusses abgeleitet", "correct": "falsch"}
+        ]
+      },
+
+      {
+        "id": 49, "lz": "03-04", "type": "P", "points": 1, "required": 3,
+        "question": "Was sind DREI Ziele der Modularisierung als Entwurfsprinzip?",
+        "options": [
+          {"id": "a", "text": "Hohe Kohäsion innerhalb eines Moduls"},
+          {"id": "b", "text": "Maximale Anzahl von Abhängigkeiten zwischen Modulen"},
+          {"id": "c", "text": "Geheimnisprinzip (Information Hiding)"},
+          {"id": "d", "text": "Lose Kopplung zwischen Modulen"},
+          {"id": "e", "text": "Einheitliche Variablenbenennung im gesamten System"}
+        ],
+        "correct": ["a", "c", "d"]
+      },
+
+      {
+        "id": 50, "lz": "03-04", "type": "A", "points": 1,
+        "question": "Was versteht man unter dem Dependency-Inversion-Prinzip?",
+        "options": [
+          {"id": "a", "text": "Große Bausteine sollen nicht von kleinen Bausteinen abhängen"},
+          {"id": "b", "text": "Komponenten sollen abhängige Komponenten leichter erstellen können"},
+          {"id": "c", "text": "Bausteine sollen nur über Abstraktionen (z. B. Schnittstellen) voneinander abhängen"},
+          {"id": "d", "text": "Abhängigkeiten sollen stets bidirektional sein"}
+        ],
+        "correct": "c"
+      },
+
+      {
+        "id": 51, "lz": "03-04", "type": "K", "points": 2,
+        "question": "Ist das folgende Beispiel ein Merkmal enger (hoher) oder loser (niedriger) Kopplung?",
+        "categories": ["enge Kopplung", "lose Kopplung"],
+        "options": [
+          {"id": "a", "text": "Bausteine rufen abhängige Bausteine direkt ohne Umwege über Schnittstellen auf", "correct": "enge Kopplung"},
+          {"id": "b", "text": "Bausteine verwenden gemeinsame komplexe Datenstrukturen", "correct": "enge Kopplung"},
+          {"id": "c", "text": "Dependency-Inversion-Prinzip wurde konsequent umgesetzt", "correct": "lose Kopplung"},
+          {"id": "d", "text": "Kommunikation erfolgt ausschließlich über gut definierte, stabile Schnittstellen", "correct": "lose Kopplung"}
+        ]
+      },
+
+      {
+        "id": 52, "lz": "03-05", "type": "K", "points": 2,
+        "question": "Welche der folgenden Aussagen zum iterativen Vorgehen und Feedback-Schleifen sind richtig oder falsch?",
+        "categories": ["richtig", "falsch"],
+        "options": [
+          {"id": "a", "text": "Iteratives Vorgehen hilft, Risiken bei ungewissen Entscheidungen zu reduzieren", "correct": "richtig"},
+          {"id": "b", "text": "Der Gesamtaufwand für Architekturarbeit ist bei iterativen Projekten wesentlich höher als bei Wasserfallprojekten", "correct": "falsch"},
+          {"id": "c", "text": "Architekt:innen müssen die Notwendigkeit von Iterationen selbstständig erkennen und einfordern", "correct": "richtig"},
+          {"id": "d", "text": "Agile Projekte benötigen keine Architekturdokumente, da alles in Standup-Meetings besprochen wird", "correct": "falsch"}
+        ]
+      },
+
+      {
+        "id": 53, "lz": "03-05", "type": "A", "points": 1,
+        "question": "Warum sind Feedback-Schleifen in der Architekturarbeit besonders wichtig?",
+        "options": [
+          {"id": "a", "text": "Sie erhöhen die Anzahl der Meetings im Projekt"},
+          {"id": "b", "text": "Sie ermöglichen frühzeitiges Erkennen und Korrigieren von Risiken bei unsicheren Entscheidungen"},
+          {"id": "c", "text": "Sie stellen sicher, dass alle Stakeholder stets dieselbe Meinung vertreten"},
+          {"id": "d", "text": "Sie sind nur in agilen Projekten sinnvoll"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 54, "lz": "03-05", "type": "P", "points": 1, "required": 2,
+        "question": "Was hilft, Risiken in der Architekturarbeit durch Feedback-Schleifen zu minimieren?",
+        "options": [
+          {"id": "a", "text": "Alle Entscheidungen auf einmal zu Projektbeginn treffen"},
+          {"id": "b", "text": "Iterativ arbeiten und entscheiden"},
+          {"id": "c", "text": "Rückmeldungen von anderen Stakeholdern systematisch einholen"},
+          {"id": "d", "text": "Jede Architekturentscheidung ohne Überprüfung sofort umsetzen"}
+        ],
+        "correct": ["b", "c"]
+      },
+
+      {
+        "id": 55, "lz": "03-06", "type": "K", "points": 2,
+        "question": "Ist das folgende Beispiel ein Merkmal enger oder loser Kopplung?",
+        "categories": ["enge Kopplung", "lose Kopplung"],
+        "options": [
+          {"id": "a", "text": "Bausteine verwenden eine gemeinsame Datenbanktabelle für Schreib- und Leseoperationen", "correct": "enge Kopplung"},
+          {"id": "b", "text": "Kommunikation über wohldefinierte, stabile REST-APIs", "correct": "lose Kopplung"},
+          {"id": "c", "text": "Bausteine teilen gemeinsame komplexe Datenstrukturen", "correct": "enge Kopplung"},
+          {"id": "d", "text": "Abhängigkeiten werden durch Dependency Injection erst zur Laufzeit aufgelöst", "correct": "lose Kopplung"}
+        ]
+      },
+
+      {
+        "id": 56, "lz": "03-06", "type": "A", "points": 1,
+        "question": "Was beschreibt efferente Kopplung (Outgoing Coupling) eines Bausteins?",
+        "options": [
+          {"id": "a", "text": "Die Anzahl der eingehenden Abhängigkeiten (andere Bausteine, die diesen Baustein nutzen)"},
+          {"id": "b", "text": "Die Anzahl der ausgehenden Abhängigkeiten dieses Bausteins zu anderen Bausteinen"},
+          {"id": "c", "text": "Die Laufzeitabhängigkeiten zwischen Bausteinen"},
+          {"id": "d", "text": "Die zeitliche Kopplung zwischen sequenziellen Methodenaufrufen"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 57, "lz": "03-06", "type": "P", "points": 1, "required": 3,
+        "question": "Welche DREI Arten der Kopplung sollte ein Softwarearchitekt kennen?",
+        "options": [
+          {"id": "a", "text": "Statische und dynamische Kopplung"},
+          {"id": "b", "text": "Efferente und afferente Kopplung"},
+          {"id": "c", "text": "Kopplung durch Vererbung"},
+          {"id": "d", "text": "Kopplung durch Tabellenkalkulationen"},
+          {"id": "e", "text": "Visuelle Kopplung durch UI-Farben"}
+        ],
+        "correct": ["a", "b", "c"]
+      },
+
+      {
+        "id": 58, "lz": "03-06", "type": "K", "points": 2,
+        "question": "Welche der folgenden Aussagen zu Abhängigkeiten und Kopplung sind richtig oder falsch?",
+        "categories": ["richtig", "falsch"],
+        "options": [
+          {"id": "a", "text": "Abhängigkeiten vergrößern die Kopplung zwischen Bausteinen", "correct": "richtig"},
+          {"id": "b", "text": "Auf statische Kopplung zu verzichten und stattdessen dynamische einzusetzen reduziert die zugrundeliegende Kopplung zwingend", "correct": "falsch"},
+          {"id": "c", "text": "Ein Architekt sollte begründete Entscheidungen treffen, ob eine Abhängigkeit angemessen ist oder entfernt werden sollte", "correct": "richtig"},
+          {"id": "d", "text": "Alle Abhängigkeiten sind grundsätzlich schlecht und müssen restlos vermieden werden", "correct": "falsch"}
+        ]
+      },
+
+      {
+        "id": 59, "lz": "03-07", "type": "P", "points": 1, "required": 2,
+        "question": "Welche ZWEI Eigenschaften hat eine gute Schnittstelle?",
+        "options": [
+          {"id": "a", "text": "Einfach zu erlernen, einfach zu benutzen, einfach zu erweitern"},
+          {"id": "b", "text": "Maximale Anzahl von Operationen und Parametern"},
+          {"id": "c", "text": "Schwer zu missbrauchen"},
+          {"id": "d", "text": "Vollständiger Zugriff auf alle Implementierungsdetails"}
+        ],
+        "correct": ["a", "c"]
+      },
+
+      {
+        "id": 60, "lz": "03-07", "type": "K", "points": 2,
+        "question": "Ist die folgende Schnittstelleneigenschaft wünschenswert oder nicht wünschenswert?",
+        "categories": ["wünschenswert", "nicht wünschenswert"],
+        "options": [
+          {"id": "a", "text": "Einfach zu erlernen für die Nutzenden", "correct": "wünschenswert"},
+          {"id": "b", "text": "Freier Zugriff auf alle internen Implementierungsdetails", "correct": "nicht wünschenswert"},
+          {"id": "c", "text": "Funktional vollständig aus Sicht der nutzenden Bausteine", "correct": "wünschenswert"},
+          {"id": "d", "text": "Sehr schwer zu benutzen, aber technisch sehr leistungsfähig", "correct": "nicht wünschenswert"}
+        ]
+      },
+
+      {
+        "id": 61, "lz": "03-07", "type": "A", "points": 1,
+        "question": "Was gilt für die Trennung zwischen Schnittstelle und Implementierung?",
+        "options": [
+          {"id": "a", "text": "Schnittstelle und Implementierung müssen stets identisch sein"},
+          {"id": "b", "text": "Die Implementierung kann bei Bedarf ausgetauscht werden, ohne die Schnittstelle zu ändern"},
+          {"id": "c", "text": "Eine Schnittstelle darf nur eine einzige Implementierung haben"},
+          {"id": "d", "text": "Implementierungsdetails müssen in der Schnittstelle vollständig sichtbar sein"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 62, "lz": "03-07", "type": "P", "points": 1, "required": 2,
+        "question": "Was sollte eine gute Schnittstellenspezifikation enthalten?",
+        "options": [
+          {"id": "a", "text": "Den vollständigen Quellcode der Implementierung"},
+          {"id": "b", "text": "Funktionale Aspekte (Operationen, Parameter, Rückgabewerte)"},
+          {"id": "c", "text": "Nicht-funktionale Aspekte wie Performance- oder Sicherheitsanforderungen"},
+          {"id": "d", "text": "Die persönlichen Präferenzen des implementierenden Entwicklers"}
+        ],
+        "correct": ["b", "c"]
+      },
+
+      {
+        "id": 63, "lz": "03-08", "type": "A", "points": 1,
+        "question": "Welche Eigenschaft lässt sich am ehesten durch eine Schichtenarchitektur (Layered Architecture) verbessern?",
+        "options": [
+          {"id": "a", "text": "Laufzeiteffizienz (Performance)"},
+          {"id": "b", "text": "Flexibilität bei der Modifizierung oder Änderung des Systems"},
+          {"id": "c", "text": "Flexibilität bei der Laufzeit (Konfigurierbarkeit)"},
+          {"id": "d", "text": "Nichtabstreitbarkeit (Non-Repudiation)"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 64, "lz": "03-08", "type": "P", "points": 1, "required": 2,
+        "question": "Für welche ZWEI Entwurfsprobleme bietet das Pipes-&-Filter-Muster Lösungsansätze?",
+        "options": [
+          {"id": "a", "text": "Verwaltung von globalem Anwendungszustand"},
+          {"id": "b", "text": "Strukturierung von IT-Systemen, die Datenströme verarbeiten"},
+          {"id": "c", "text": "Entkopplung von Verarbeitungsschritten"},
+          {"id": "d", "text": "Entkopplung von zeitlichen Abhängigkeiten"}
+        ],
+        "correct": ["b", "c"]
+      },
+
+      {
+        "id": 65, "lz": "03-08", "type": "K", "points": 2,
+        "question": "Handelt es sich um ein Strukturmuster (Architekturstil) oder ein Integrationsmuster?",
+        "categories": ["Architekturstil / Strukturmuster", "Integrationsmuster"],
+        "options": [
+          {"id": "a", "text": "Schichtenarchitektur (Layered Architecture)", "correct": "Architekturstil / Strukturmuster"},
+          {"id": "b", "text": "Message Broker / Enterprise Service Bus", "correct": "Integrationsmuster"},
+          {"id": "c", "text": "Microservices", "correct": "Architekturstil / Strukturmuster"},
+          {"id": "d", "text": "Publish-Subscribe", "correct": "Integrationsmuster"}
+        ]
+      },
+
+      {
+        "id": 66, "lz": "03-08", "type": "P", "points": 2, "required": 3,
+        "question": "Welche DREI Architekturmuster sind laut Curriculum (R1) prüfungsrelevant und müssen erklärt werden können?",
+        "options": [
+          {"id": "a", "text": "Layer (Schichtenarchitektur)"},
+          {"id": "b", "text": "Singleton"},
+          {"id": "c", "text": "Pipes und Filter"},
+          {"id": "d", "text": "Microservices"}
+        ],
+        "correct": ["a", "c", "d"]
+      },
+
+      {
+        "id": 67, "lz": "03-08", "type": "A", "points": 1,
+        "question": "Was ist ein wesentliches Merkmal von Microservices?",
+        "options": [
+          {"id": "a", "text": "Alle Services teilen sich eine gemeinsame Datenbank"},
+          {"id": "b", "text": "Jeder Service ist eng mit allen anderen Services gekoppelt"},
+          {"id": "c", "text": "Jeder Microservice kann unabhängig von anderen deployt werden"},
+          {"id": "d", "text": "Microservices kommunizieren ausschließlich über gemeinsamen Speicher"}
+        ],
+        "correct": "c"
+      },
+
+      {
+        "id": 68, "lz": "03-10", "type": "P", "points": 1, "required": 3,
+        "question": "Was sind DREI typische Querschnittsthemen in Softwarearchitekturen?",
+        "options": [
+          {"id": "a", "text": "Persistenz"},
+          {"id": "b", "text": "Kommunikation"},
+          {"id": "c", "text": "Fehlerbehandlung"},
+          {"id": "d", "text": "Mitarbeiterbewertung"},
+          {"id": "e", "text": "Büroausstattung"}
+        ],
+        "correct": ["a", "b", "c"]
+      },
+
+      {
+        "id": 69, "lz": "03-10", "type": "K", "points": 2,
+        "question": "Handelt es sich um ein typisches Querschnittsthema einer Softwarearchitektur?",
+        "categories": ["typisches Querschnittsthema", "kein Querschnittsthema"],
+        "options": [
+          {"id": "a", "text": "Logging und Protokollierung", "correct": "typisches Querschnittsthema"},
+          {"id": "b", "text": "Wahl des Kaffeevollautomaten für das Büro", "correct": "kein Querschnittsthema"},
+          {"id": "c", "text": "Sicherheit (Security) und Authentifizierung", "correct": "typisches Querschnittsthema"},
+          {"id": "d", "text": "Tagesaktuelle Aktienkurse im Unternehmen", "correct": "kein Querschnittsthema"}
+        ]
+      },
+
+      {
+        "id": 70, "lz": "03-10", "type": "A", "points": 1,
+        "question": "Warum sind Querschnittskonzepte für die Softwarearchitektur wichtig?",
+        "options": [
+          {"id": "a", "text": "Weil sie zwingend von spezialisierten Experten implementiert werden müssen"},
+          {"id": "b", "text": "Weil sie systemübergreifend wiederverwendbar sind und die Konsistenz in der Architektur fördern"},
+          {"id": "c", "text": "Weil sie ausschließlich in der Datenbank gespeichert werden"},
+          {"id": "d", "text": "Weil sie die Performance des Systems automatisch verbessern"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 71, "lz": "04-01", "type": "K", "points": 2,
+        "question": "Welche Aussage zu Anforderungen an technische Dokumentation ist zutreffend oder nicht zutreffend?",
+        "categories": ["zutreffend", "nicht zutreffend"],
+        "options": [
+          {"id": "a", "text": "Technische Dokumentation sollte verständlich für ihre jeweilige Zielgruppe sein", "correct": "zutreffend"},
+          {"id": "b", "text": "Alle technischen Dokumente müssen dieselbe festgelegte maximale Seitenanzahl haben", "correct": "nicht zutreffend"},
+          {"id": "c", "text": "Verständlichkeit technischer Dokumentation kann nur von deren Zielgruppen selbst beurteilt werden", "correct": "zutreffend"},
+          {"id": "d", "text": "Technische Dokumentation muss zwingend in UML-Notation erstellt werden", "correct": "nicht zutreffend"}
+        ]
+      },
+
+      {
+        "id": 72, "lz": "04-01", "type": "P", "points": 1, "required": 3,
+        "question": "Was sind DREI wesentliche Qualitätsmerkmale technischer Dokumentation?",
+        "options": [
+          {"id": "a", "text": "Verständlichkeit"},
+          {"id": "b", "text": "Korrektheit"},
+          {"id": "c", "text": "Maximale Seitenanzahl"},
+          {"id": "d", "text": "Wartbarkeit"},
+          {"id": "e", "text": "Anzahl der enthaltenen Diagramme"}
+        ],
+        "correct": ["a", "b", "d"]
+      },
+
+      {
+        "id": 73, "lz": "04-01", "type": "A", "points": 1,
+        "question": "Wer kann die Verständlichkeit technischer Dokumentation abschließend beurteilen?",
+        "options": [
+          {"id": "a", "text": "Der Projektleiter oder die Projektleiterin"},
+          {"id": "b", "text": "Der Softwarearchitekt, der die Dokumentation erstellt hat"},
+          {"id": "c", "text": "Nur die Zielgruppe der Dokumentation"},
+          {"id": "d", "text": "Der Auftraggeber nach Projektabschluss"}
+        ],
+        "correct": "c"
+      },
+
+      {
+        "id": 74, "lz": "04-01", "type": "K", "points": 2,
+        "question": "Welche Aussagen zur Architekturdokumentation sind richtig oder falsch?",
+        "categories": ["richtig", "falsch"],
+        "options": [
+          {"id": "a", "text": "Detailgrad und Format der Dokumentation sollten an die Zielgruppe angepasst werden", "correct": "richtig"},
+          {"id": "b", "text": "Architekturdokumentation muss stets nach einem international verbindlichen Standard erstellt werden", "correct": "falsch"},
+          {"id": "c", "text": "Effizienz ist ein sinnvolles Qualitätsmerkmal für Architekturdokumentation", "correct": "richtig"},
+          {"id": "d", "text": "Mündliche Kommunikation kann schriftliche Dokumentation vollständig und dauerhaft ersetzen", "correct": "falsch"}
+        ]
+      },
+
+      {
+        "id": 75, "lz": "04-02", "type": "P", "points": 1, "required": 2,
+        "question": "Welche ZWEI Maßnahmen helfen bei der zielgruppengerechten Kommunikation einer Softwarearchitektur?",
+        "options": [
+          {"id": "a", "text": "Ausschließlich technische Dialekte und Abkürzungen verwenden"},
+          {"id": "b", "text": "Architekturen entsprechend den Anliegen verschiedener Stakeholder dokumentieren"},
+          {"id": "c", "text": "Unterschiedliche Zielgruppen mit angepassten Darstellungen (z. B. Management vs. Entwicklungsteam) adressieren"},
+          {"id": "d", "text": "Architektur nur einmal zu Projektbeginn kommunizieren und danach nicht mehr aktualisieren"}
+        ],
+        "correct": ["b", "c"]
+      },
+
+      {
+        "id": 76, "lz": "04-02", "type": "K", "points": 2,
+        "question": "Welche Aussagen zur mündlichen und schriftlichen Kommunikation von Architektur sind richtig oder falsch?",
+        "categories": ["richtig", "falsch"],
+        "options": [
+          {"id": "a", "text": "Mündliche Kommunikation sollte schriftliche Dokumentation ergänzen", "correct": "richtig"},
+          {"id": "b", "text": "Schriftliche Dokumentation sollte immer mündlicher Kommunikation vorausgehen", "correct": "falsch"},
+          {"id": "c", "text": "Architekt:innen sollten mündliche und schriftliche Kommunikation ausbalancieren", "correct": "richtig"},
+          {"id": "d", "text": "Feedback zu Architekturentscheidungen sollte grundsätzlich nur schriftlich erfolgen", "correct": "falsch"}
+        ]
+      },
+
+      {
+        "id": 77, "lz": "04-02", "type": "A", "points": 1,
+        "question": "Was ist ein wesentlicher Nutzen einer template-basierten Dokumentation (z. B. arc42)?",
+        "options": [
+          {"id": "a", "text": "Sie garantiert, dass alle Dokumente dieselbe Länge haben"},
+          {"id": "b", "text": "Sie stellt sicher, dass wichtige Aspekte nicht vergessen werden, und fördert die Konsistenz"},
+          {"id": "c", "text": "Sie ersetzt jede Art von mündlicher Kommunikation vollständig"},
+          {"id": "d", "text": "Sie ist das einzig rechtlich zulässige Format für Architekturdokumentation"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 78, "lz": "04-02", "type": "P", "points": 1, "required": 3,
+        "question": "Welche DREI Zielgruppen adressiert eine Architekturdokumentation typischerweise?",
+        "options": [
+          {"id": "a", "text": "Management"},
+          {"id": "b", "text": "Entwicklungsteams"},
+          {"id": "c", "text": "Qualitätssicherung und Test"},
+          {"id": "d", "text": "Fahrzeugflotte des Unternehmens"},
+          {"id": "e", "text": "Kantinenpersonal"}
+        ],
+        "correct": ["a", "b", "c"]
+      },
+
+      {
+        "id": 79, "lz": "04-05", "type": "P", "points": 1, "required": 3,
+        "question": "Welche DREI Architektursichten werden in der Praxis am häufigsten verwendet?",
+        "options": [
+          {"id": "a", "text": "Physische Datenbanksicht"},
+          {"id": "b", "text": "Kontextsicht"},
+          {"id": "c", "text": "Bausteinsicht oder Komponentensicht"},
+          {"id": "d", "text": "Testbasierte Sicht"},
+          {"id": "e", "text": "Konfigurationssicht"},
+          {"id": "f", "text": "Laufzeitsicht"}
+        ],
+        "correct": ["b", "c", "f"]
+      },
+
+      {
+        "id": 80, "lz": "04-05", "type": "K", "points": 2,
+        "question": "Welcher Inhalt gehört zur Bausteinsicht, welcher zur Laufzeitsicht?",
+        "categories": ["Bausteinsicht", "Laufzeitsicht"],
+        "options": [
+          {"id": "a", "text": "Statische Struktur des Systems aus Softwarebausteinen", "correct": "Bausteinsicht"},
+          {"id": "b", "text": "Zusammenwirken der Bausteine zur Laufzeit (z. B. Sequenzdiagramm)", "correct": "Laufzeitsicht"},
+          {"id": "c", "text": "Hierarchische Zerlegung des Systems in Bausteine und deren Schnittstellen", "correct": "Bausteinsicht"},
+          {"id": "d", "text": "Zustandsmodelle und Abläufe zur Laufzeit", "correct": "Laufzeitsicht"}
+        ]
+      },
+
+      {
+        "id": 81, "lz": "04-05", "type": "A", "points": 1,
+        "question": "Was enthält die Kontextsicht (Kontextabgrenzung)?",
+        "options": [
+          {"id": "a", "text": "Ausschließlich die interne Struktur des Systems"},
+          {"id": "b", "text": "Die externen Schnittstellen des Systems und seine Beziehungen zur Umgebung"},
+          {"id": "c", "text": "Nur die Datenbankstruktur des Systems"},
+          {"id": "d", "text": "Die Verteilung der Bausteine auf Hardware-Knoten"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 82, "lz": "04-05", "type": "P", "points": 1, "required": 2,
+        "question": "Was gehört typischerweise in die Bausteinsicht?",
+        "options": [
+          {"id": "a", "text": "Externe Schnittstellen zu Nachbarsystemen (das ist die Kontextsicht)"},
+          {"id": "b", "text": "Softwarebausteine und ihre Abhängigkeiten untereinander"},
+          {"id": "c", "text": "Hardware-Infrastruktur und physische Knoten"},
+          {"id": "d", "text": "Verantwortlichkeiten und Schnittstellen der Bausteine"}
+        ],
+        "correct": ["b", "d"]
+      },
+
+      {
+        "id": 83, "lz": "04-05", "type": "A", "points": 1,
+        "question": "Was zeigt die Laufzeitsicht (dynamische Sicht)?",
+        "options": [
+          {"id": "a", "text": "Die statische Struktur und Hierarchie des Systems"},
+          {"id": "b", "text": "Die Hardware-Infrastruktur und physische Knoten"},
+          {"id": "c", "text": "Das Zusammenwirken der Softwarebausteine zur Laufzeit"},
+          {"id": "d", "text": "Die physische Verteilung der Bausteine auf Server und Rechenzentren"}
+        ],
+        "correct": "c"
+      },
+
+      {
+        "id": 84, "lz": "04-05", "type": "K", "points": 2,
+        "question": "Welche Aussagen zu Architektursichten sind richtig oder falsch?",
+        "categories": ["richtig", "falsch"],
+        "options": [
+          {"id": "a", "text": "Die Verteilungssicht zeigt die Abbildung von Softwarebausteinen auf Hardware und Infrastruktur", "correct": "richtig"},
+          {"id": "b", "text": "Es gibt genau vier Pflicht-Sichten; weitere Sichten sind verboten", "correct": "falsch"},
+          {"id": "c", "text": "Die Kontextsicht enthält die externen Schnittstellen des Systems", "correct": "richtig"},
+          {"id": "d", "text": "Architektursichten dienen nur der internen Kommunikation im Entwicklungsteam", "correct": "falsch"}
+        ]
+      },
+
+      {
+        "id": 85, "lz": "04-06", "type": "K", "points": 2,
+        "question": "Welche Informationen gehören in eine Schnittstellendokumentation?",
+        "categories": ["gehört in die Schnittstellendokumentation", "gehört nicht in die Schnittstellendokumentation"],
+        "options": [
+          {"id": "a", "text": "Syntax und Semantik der Schnittstelle (Operationen, Parameter, Rückgabewerte)", "correct": "gehört in die Schnittstellendokumentation"},
+          {"id": "b", "text": "Vollständiger Quellcode aller implementierenden Klassen", "correct": "gehört nicht in die Schnittstellendokumentation"},
+          {"id": "c", "text": "Qualitätsmerkmale wie Performanceerwartungen oder Fehlerverhalten", "correct": "gehört in die Schnittstellendokumentation"},
+          {"id": "d", "text": "Persönliche Meinungen und Präferenzen der Entwickler", "correct": "gehört nicht in die Schnittstellendokumentation"}
+        ]
+      },
+
+      {
+        "id": 86, "lz": "04-06", "type": "A", "points": 1,
+        "question": "Was ist bei der Dokumentation von Schnittstellen zu beachten?",
+        "options": [
+          {"id": "a", "text": "Nur externe Schnittstellen müssen dokumentiert werden"},
+          {"id": "b", "text": "Nur interne Schnittstellen müssen dokumentiert werden"},
+          {"id": "c", "text": "Sowohl interne als auch externe Schnittstellen sollten dokumentiert werden"},
+          {"id": "d", "text": "Schnittstellen müssen nie dokumentiert werden, da der Code selbsterklärend ist"}
+        ],
+        "correct": "c"
+      },
+
+      {
+        "id": 87, "lz": "04-08", "type": "K", "points": 2,
+        "question": "Welche der folgenden Aussagen zu Architekturentscheidungen sind wahr oder falsch?",
+        "categories": ["wahr", "falsch"],
+        "options": [
+          {"id": "a", "text": "Architekturentscheidungen müssen nie aufgeschrieben werden, da sie im Team bekannt sind", "correct": "falsch"},
+          {"id": "b", "text": "Architecture Decision Records (ADR) helfen, Entscheidungen in ihrem Kontext nachzuvollziehen", "correct": "wahr"},
+          {"id": "c", "text": "Nachdem man sich für ein zentrales Framework entschieden hat, darf diese Entscheidung nie mehr geändert werden", "correct": "falsch"},
+          {"id": "d", "text": "Qualitätsanforderungen helfen maßgeblich bei Architekturentscheidungen", "correct": "wahr"}
+        ]
+      },
+
+      {
+        "id": 88, "lz": "04-08", "type": "A", "points": 1,
+        "question": "Was ist ein Architecture Decision Record (ADR)?",
+        "options": [
+          {"id": "a", "text": "Eine automatisch generierte Übersicht aller Code-Änderungen"},
+          {"id": "b", "text": "Ein standardisiertes Dokument zur Erfassung von Architekturentscheidungen mit ihrer Begründung und ihrem Kontext"},
+          {"id": "c", "text": "Ein Protokoll aus einem Architektur-Review-Meeting"},
+          {"id": "d", "text": "Eine technische Zeichnung der Systemarchitektur in UML"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 89, "lz": "04-08", "type": "P", "points": 1, "required": 2,
+        "question": "Was sollte bei Architekturentscheidungen dokumentiert werden?",
+        "options": [
+          {"id": "a", "text": "Die Begründung (Rationale) für die Entscheidung"},
+          {"id": "b", "text": "Die Gehaltsstufen der an der Entscheidung beteiligten Architekten"},
+          {"id": "c", "text": "Gegenseitige Abhängigkeiten zwischen verschiedenen Architekturentscheidungen"},
+          {"id": "d", "text": "Die vollständige Implementierung des gewählten Ansatzes im Quellcode"}
+        ],
+        "correct": ["a", "c"]
+      },
+
+      {
+        "id": 90, "lz": "04-08", "type": "K", "points": 2,
+        "question": "Welche Aussagen zur Dokumentation von Architekturentscheidungen sind richtig oder falsch?",
+        "categories": ["richtig", "falsch"],
+        "options": [
+          {"id": "a", "text": "Architektonische Entscheidungen können sich in der Struktur der Bausteine oder Komponenten niederschlagen", "correct": "richtig"},
+          {"id": "b", "text": "Alle Entwurfsentscheidungen müssen zwingend schriftlich begründet werden", "correct": "falsch"},
+          {"id": "c", "text": "Architektonische Entscheidungen können untereinander Wechselwirkungen haben", "correct": "richtig"},
+          {"id": "d", "text": "Einmal getroffene Architekturentscheidungen können und dürfen niemals revidiert werden", "correct": "falsch"}
+        ]
+      },
+
+      {
+        "id": 91, "lz": "05-01", "type": "P", "points": 1, "required": 3,
+        "question": "Was sind DREI typische Gründe für die Durchführung einer Architekturanalyse?",
+        "options": [
+          {"id": "a", "text": "Risiken und mögliche Verbesserungen im Architekturentwurf identifizieren"},
+          {"id": "b", "text": "Gehälter der Entwickler:innen festlegen"},
+          {"id": "c", "text": "Feststellen, ob der Architekturentwurf die Anforderungen erfüllt"},
+          {"id": "d", "text": "Prüfen, ob die Implementierung mit dem Architekturentwurf und den Entscheidungen übereinstimmt"},
+          {"id": "e", "text": "Werbematerial für das Projekt erstellen"}
+        ],
+        "correct": ["a", "c", "d"]
+      },
+
+      {
+        "id": 92, "lz": "05-01", "type": "K", "points": 2,
+        "question": "Ist folgender Grund ein typischer Anlass für eine Architekturanalyse?",
+        "categories": ["typischer Grund für Architekturanalyse", "kein typischer Grund"],
+        "options": [
+          {"id": "a", "text": "Risiken und mögliche Verbesserungen im Entwurf identifizieren", "correct": "typischer Grund für Architekturanalyse"},
+          {"id": "b", "text": "Urlaubsplanung des Entwicklungsteams organisieren", "correct": "kein typischer Grund"},
+          {"id": "c", "text": "Überprüfen, ob architekturrelevante Anliegen der Stakeholder berücksichtigt sind", "correct": "typischer Grund für Architekturanalyse"},
+          {"id": "d", "text": "Neugestaltung des Bürolayouts planen", "correct": "kein typischer Grund"}
+        ]
+      },
+
+      {
+        "id": 93, "lz": "05-01", "type": "A", "points": 1,
+        "question": "Wann sollte eine Architekturanalyse durchgeführt werden?",
+        "options": [
+          {"id": "a", "text": "Nur nach der vollständigen Implementierung des Systems"},
+          {"id": "b", "text": "Nur wenn der Auftraggeber es explizit in Auftrag gibt"},
+          {"id": "c", "text": "Vor, während und nach der Implementierung"},
+          {"id": "d", "text": "Ausschließlich am Projektende als abschließende Maßnahme"}
+        ],
+        "correct": "c"
+      },
+
+      {
+        "id": 94, "lz": "05-01", "type": "K", "points": 2,
+        "question": "Welche Aussagen zur Architekturanalyse sind richtig oder falsch?",
+        "categories": ["richtig", "falsch"],
+        "options": [
+          {"id": "a", "text": "Architekturanalyse hilft, Risiken frühzeitig im Entwicklungsprozess zu erkennen", "correct": "richtig"},
+          {"id": "b", "text": "Eine Architekturanalyse ist nur für sicherheitskritische Systeme notwendig", "correct": "falsch"},
+          {"id": "c", "text": "Architekturanalyse kann prüfen, ob die Implementierung dem Architekturentwurf entspricht", "correct": "richtig"},
+          {"id": "d", "text": "Architekturanalysen sollten nur von externen Gutachtern durchgeführt werden", "correct": "falsch"}
+        ]
+      },
+
+      {
+        "id": 95, "lz": "05-02", "type": "P", "points": 1, "required": 3,
+        "question": "Welche DREI Analysemethoden stehen für die Qualitätsanalyse von Softwaresystemen zur Verfügung?",
+        "options": [
+          {"id": "a", "text": "Szenariobasierte Analyse"},
+          {"id": "b", "text": "Automatische Code-Generierung"},
+          {"id": "c", "text": "Analyse der Ergebnisse von Akzeptanztests"},
+          {"id": "d", "text": "Quantitative Messung von Laufzeitverhalten"},
+          {"id": "e", "text": "Regelmäßige Team-Events und Workshops ohne Architekturbezug"}
+        ],
+        "correct": ["a", "c", "d"]
+      },
+
+      {
+        "id": 96, "lz": "05-02", "type": "K", "points": 2,
+        "question": "Handelt es sich um eine quantitative oder qualitative Analysemethode?",
+        "categories": ["quantitative Methode", "qualitative Methode"],
+        "options": [
+          {"id": "a", "text": "Messen der Lines of Code (LoC) pro Komponente", "correct": "quantitative Methode"},
+          {"id": "b", "text": "Durchführung von Experteninterviews zur Architekturbewertung", "correct": "qualitative Methode"},
+          {"id": "c", "text": "Zählen eingehender und ausgehender Abhängigkeiten je Baustein", "correct": "quantitative Methode"},
+          {"id": "d", "text": "Szenariobasierte Architekturbewertung (z. B. ATAM)", "correct": "qualitative Methode"}
+        ]
+      },
+
+      {
+        "id": 97, "lz": "05-02", "type": "A", "points": 1,
+        "question": "Was sind typische Anzeichen für architektonische Problembereiche?",
+        "options": [
+          {"id": "a", "text": "Zu viele Kommentare im Quellcode"},
+          {"id": "b", "text": "Hohe Kopplung der Komponenten und Häufung von Fehlern in bestimmten Bausteinen"},
+          {"id": "c", "text": "Eine zu hohe Testabdeckung"},
+          {"id": "d", "text": "Zu viele Entwickler:innen im Projektteam"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 98, "lz": "05-02", "type": "P", "points": 1, "required": 3,
+        "question": "Welche DREI Informationsquellen können für die Qualitätsanalyse einer Softwarearchitektur genutzt werden?",
+        "options": [
+          {"id": "a", "text": "Anforderungsdokumentation"},
+          {"id": "b", "text": "Persönliche Vorlieben des Architekten"},
+          {"id": "c", "text": "Quelltext und quelltext-bezogene Metriken (z. B. Komplexität)"},
+          {"id": "d", "text": "Testfälle und ihre Testresultate"},
+          {"id": "e", "text": "Preislisten für Entwicklungswerkzeuge"}
+        ],
+        "correct": ["a", "c", "d"]
+      },
+
+      {
+        "id": 99, "lz": "05-02", "type": "K", "points": 2,
+        "question": "Ist die folgende Größe für eine Softwarearchitektur quantitativ zuverlässig messbar?",
+        "categories": ["quantitativ messbar", "schwer quantitativ messbar"],
+        "options": [
+          {"id": "a", "text": "Größe der Bausteine (z. B. Lines of Code)", "correct": "quantitativ messbar"},
+          {"id": "b", "text": "Änderungsrate des Quellcodes der Komponenten", "correct": "quantitativ messbar"},
+          {"id": "c", "text": "Kohäsion der Architekturkomponenten", "correct": "schwer quantitativ messbar"},
+          {"id": "d", "text": "Eleganz und Eleganz des Architekturentwurfs", "correct": "schwer quantitativ messbar"}
+        ]
+      },
+
+      {
+        "id": 100, "lz": "05-02", "type": "P", "points": 2, "required": 4,
+        "question": "Welche VIER der folgenden Punkte sind am besten geeignet, die qualitative Bewertung einer Softwarearchitektur bezüglich der Qualitätsanforderungen zu unterstützen?",
+        "options": [
+          {"id": "a", "text": "Quantitative Abhängigkeitsanalyse"},
+          {"id": "b", "text": "Architekturmodelle"},
+          {"id": "c", "text": "Qualitätsszenarien"},
+          {"id": "d", "text": "Teamgröße"},
+          {"id": "e", "text": "Laufzeit-Logs und Logdateien"},
+          {"id": "f", "text": "Organigramm des Unternehmens"}
+        ],
+        "correct": ["a", "b", "c", "e"]
+      }
+
+    ]
+  }
+}

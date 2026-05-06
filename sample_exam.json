@@ -1,0 +1,356 @@
+{
+  "exam": {
+    "title": "iSAQB CPSA-FL – Übungsprüfung",
+    "time_limit_minutes": 75,
+    "pass_threshold": 0.6,
+    "questions": [
+      {
+        "id": 1,
+        "type": "A",
+        "points": 2,
+        "question": "Was bezeichnet der Begriff 'Softwarearchitektur' am treffendsten?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Die Summe aller Klassen und Methoden eines Systems"
+          },
+          {
+            "id": "b",
+            "text": "Die grundlegenden Strukturentscheidungen eines Systems sowie die Prinzipien, die seinen Entwurf und seine Evolution leiten"
+          },
+          {
+            "id": "c",
+            "text": "Die technische Betriebsdokumentation eines Systems"
+          },
+          {
+            "id": "d",
+            "text": "Ein konkretes Entwurfsmuster für Benutzeroberflächen"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 2,
+        "type": "A",
+        "points": 1,
+        "question": "Welches der folgenden Muster beschreibt KEINE Architekturstil?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Schichtenarchitektur (Layered Architecture)"
+          },
+          {
+            "id": "b",
+            "text": "Microservices"
+          },
+          {
+            "id": "c",
+            "text": "Event-Driven Architecture"
+          },
+          {
+            "id": "d",
+            "text": "Singleton"
+          }
+        ],
+        "correct": "d"
+      },
+      {
+        "id": 3,
+        "type": "A",
+        "points": 2,
+        "question": "Welche Aussage zum arc42-Template ist KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "arc42 schreibt genau vor, welche Technologien zu verwenden sind"
+          },
+          {
+            "id": "b",
+            "text": "arc42 ist ein praxiserprobtes Template zur Dokumentation von Softwarearchitekturen, das aus 12 Abschnitten besteht"
+          },
+          {
+            "id": "c",
+            "text": "arc42 ersetzt vollständig die Anforderungsanalyse"
+          },
+          {
+            "id": "d",
+            "text": "arc42 ist ausschließlich für Java-Projekte geeignet"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 4,
+        "type": "A",
+        "points": 1,
+        "question": "Was beschreibt das Prinzip 'Separation of Concerns'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jede Klasse hat genau einen Konstruktor"
+          },
+          {
+            "id": "b",
+            "text": "Funktionalität wird in klar abgegrenzten, verantwortlichen Einheiten organisiert"
+          },
+          {
+            "id": "c",
+            "text": "Alle Datenbankzugriffe werden zentralisiert"
+          },
+          {
+            "id": "d",
+            "text": "Schnittstellen dürfen nur synchron kommunizieren"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 5,
+        "type": "A",
+        "points": 2,
+        "question": "Welche Sicht der ISO/IEC 25010 beschreibt Softwarequalität aus Benutzerperspektive?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Product Quality"
+          },
+          {
+            "id": "b",
+            "text": "System Quality"
+          },
+          {
+            "id": "c",
+            "text": "Quality in Use"
+          },
+          {
+            "id": "d",
+            "text": "Process Quality"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": 6,
+        "type": "P",
+        "points": 2,
+        "required": 3,
+        "question": "Welche DREI der folgenden sind Qualitätsmerkmale gemäß ISO/IEC 25010 (Produktqualität)?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Zuverlässigkeit (Reliability)"
+          },
+          {
+            "id": "b",
+            "text": "Refactoring"
+          },
+          {
+            "id": "c",
+            "text": "Sicherheit (Security)"
+          },
+          {
+            "id": "d",
+            "text": "Wartbarkeit (Maintainability)"
+          },
+          {
+            "id": "e",
+            "text": "Deployment-Pipeline"
+          }
+        ],
+        "correct": [
+          "a",
+          "c",
+          "d"
+        ]
+      },
+      {
+        "id": 7,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI der folgenden Aussagen zu Microservices sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jeder Microservice besitzt eine eigene, unabhängige Datenhaltung"
+          },
+          {
+            "id": "b",
+            "text": "Microservices kommunizieren ausschließlich über gemeinsamen Speicher"
+          },
+          {
+            "id": "c",
+            "text": "Microservices können unabhängig voneinander deployt werden"
+          },
+          {
+            "id": "d",
+            "text": "Eine Microservice-Architektur vereinfacht immer die Entwicklung gegenüber einem Monolithen"
+          }
+        ],
+        "correct": [
+          "a",
+          "c"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "P",
+        "points": 1,
+        "required": 2,
+        "question": "Welche ZWEI Techniken werden typischerweise zur Architekturbewertung eingesetzt?",
+        "options": [
+          {
+            "id": "a",
+            "text": "ATAM (Architecture Tradeoff Analysis Method)"
+          },
+          {
+            "id": "b",
+            "text": "Scrum Sprint Review"
+          },
+          {
+            "id": "c",
+            "text": "Qualitative Szenario-basierte Bewertung"
+          },
+          {
+            "id": "d",
+            "text": "Continuous Integration Pipeline"
+          }
+        ],
+        "correct": [
+          "a",
+          "c"
+        ]
+      },
+      {
+        "id": 9,
+        "type": "P",
+        "points": 2,
+        "required": 3,
+        "question": "Welche DREI der folgenden Aussagen beschreiben Aufgaben eines Softwarearchitekten?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Technologieentscheidungen treffen und begründen"
+          },
+          {
+            "id": "b",
+            "text": "Jede einzelne Codezeile selbst schreiben"
+          },
+          {
+            "id": "c",
+            "text": "Architekturentscheidungen kommunizieren und dokumentieren"
+          },
+          {
+            "id": "d",
+            "text": "Qualitätsanforderungen mit Stakeholdern klären"
+          },
+          {
+            "id": "e",
+            "text": "Das Projektbudget verwalten"
+          }
+        ],
+        "correct": [
+          "a",
+          "c",
+          "d"
+        ]
+      },
+      {
+        "id": 10,
+        "type": "K",
+        "points": 1,
+        "question": "Sind die folgenden Entscheidungen architekturrelevant oder nicht architekturrelevant?",
+        "categories": [
+          "architekturrelevant",
+          "nicht architekturrelevant"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Wahl des Datenbank-Management-Systems (RDBMS vs. NoSQL)",
+            "correct": "architekturrelevant"
+          },
+          {
+            "id": "b",
+            "text": "Benennung privater lokaler Variablen in einer Methode",
+            "correct": "nicht architekturrelevant"
+          },
+          {
+            "id": "c",
+            "text": "Kommunikationsprotokoll zwischen Frontend und Backend (REST vs. gRPC)",
+            "correct": "architekturrelevant"
+          },
+          {
+            "id": "d",
+            "text": "Anzahl der Leerzeichen zur Code-Einrückung",
+            "correct": "nicht architekturrelevant"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die folgenden Qualitätsmerkmale zu: Handelt es sich um ein funktionales oder nicht-funktionales Merkmal?",
+        "categories": [
+          "nicht-funktional",
+          "funktional"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Performance-Effizienz (z.B. Antwortzeit < 200 ms)",
+            "correct": "nicht-funktional"
+          },
+          {
+            "id": "b",
+            "text": "Korrekte Berechnung einer Mehrwertsteuer",
+            "correct": "funktional"
+          },
+          {
+            "id": "c",
+            "text": "Verfügbarkeit (99,9% Uptime)",
+            "correct": "nicht-funktional"
+          },
+          {
+            "id": "d",
+            "text": "Benutzeranmeldung mit Benutzername und Passwort",
+            "correct": "funktional"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "type": "K",
+        "points": 1,
+        "question": "Ordnen Sie die folgenden Architekturmuster zu: Handelt es sich um ein Strukturmuster oder ein Integrationsmuster?",
+        "categories": [
+          "Strukturmuster",
+          "Integrationsmuster"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Schichtenarchitektur (Layered Architecture)",
+            "correct": "Strukturmuster"
+          },
+          {
+            "id": "b",
+            "text": "Message Broker / Enterprise Service Bus",
+            "correct": "Integrationsmuster"
+          },
+          {
+            "id": "c",
+            "text": "Ports & Adapters (Hexagonal Architecture)",
+            "correct": "Strukturmuster"
+          },
+          {
+            "id": "d",
+            "text": "Publish-Subscribe",
+            "correct": "Integrationsmuster"
+          }
+        ]
+      }
+    ]
+  }
+}
