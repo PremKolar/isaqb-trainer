@@ -1,3 +1,5 @@
+NOTE: this was 99.9% vibe-coded with Claude 🤓.
+
 # iSAQB CPSA-FL Prüfungssimulator – README
 
 Dieses Werkzeug simuliert eine iSAQB CPSA-FL Prüfung auf der Kommandozeile.

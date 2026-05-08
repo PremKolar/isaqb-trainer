@@ -1,7 +1,7 @@
 {
   "exam": {
     "title": "iSAQB CPSA-F – Vollständige R1-Übungsprüfung (Curriculum 2025.1-rev2)",
-    "time_limit_minutes": 90,
+    "time_limit_minutes": 9999999999999999,
     "pass_threshold": 0.6,
     "questions": [
 

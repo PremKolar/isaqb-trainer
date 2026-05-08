@@ -1,0 +1,510 @@
+{
+  "exam": {
+    "title": "iSAQB CPSA-F – Tag 3 Übungsprüfung",
+    "time_limit_minutes": 45,
+    "pass_threshold": 0.6,
+    "questions": [
+
+      {
+        "id": 1, "lz": "01-07", "type": "A", "points": 1,
+        "question": "Welche Rolle spielen Datenmodelle in der Softwarearchitektur?",
+        "options": [
+          {"id": "a", "text": "Sie sind ausschließlich Aufgabe des Datenbankadministrators und irrelevant für den Architekten"},
+          {"id": "b", "text": "Sie beschreiben die Struktur und Bedeutung von Daten und beeinflussen Architekturentscheidungen maßgeblich"},
+          {"id": "c", "text": "Sie ersetzen die Bausteinsicht vollständig"},
+          {"id": "d", "text": "Sie sind nur in relationalen Datenbanksystemen relevant"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 2, "lz": "01-07", "type": "K", "points": 1,
+        "question": "Handelt es sich um einen Aspekt, den ein Softwarearchitekt beim Thema Daten berücksichtigen muss?",
+        "categories": ["muss berücksichtigt werden", "nicht relevant für den Architekten"],
+        "options": [
+          {"id": "a", "text": "Datenpersistenz und Datenformate an Systemgrenzen", "correct": "muss berücksichtigt werden"},
+          {"id": "b", "text": "Schriftgröße in der Datenbankdokumentation", "correct": "nicht relevant für den Architekten"},
+          {"id": "c", "text": "Datenhoheit und Zuständigkeiten für Daten in verteilten Systemen", "correct": "muss berücksichtigt werden"},
+          {"id": "d", "text": "Persönliche Farbpräferenz des Datenbankdesigners", "correct": "nicht relevant für den Architekten"}
+        ]
+      },
+
+      {
+        "id": 3, "lz": "02-02", "type": "A", "points": 1,
+        "question": "Was besagt Conway's Law in Bezug auf Softwarearchitektur?",
+        "options": [
+          {"id": "a", "text": "Software wird immer komplexer, je länger sie existiert"},
+          {"id": "b", "text": "Die Systemarchitektur spiegelt die Kommunikationsstruktur der entwickelnden Organisation wider"},
+          {"id": "c", "text": "Mehr Entwickler führen immer zu schnellerer Softwareentwicklung"},
+          {"id": "d", "text": "Gute Architektur kann nur in großen Teams entstehen"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 4, "lz": "03-01", "type": "P", "points": 1, "required": 2,
+        "question": "Welche ZWEI Aktivitäten helfen einem Architekten, Qualitätsziele durch Architekturentwurf zu erreichen?",
+        "options": [
+          {"id": "a", "text": "Bewusste Wahl von Architekturmustern passend zu den Qualitätszielen"},
+          {"id": "b", "text": "Anzahl der Entwickler im Team erhöhen"},
+          {"id": "c", "text": "Abwägen von Entwurfsalternativen hinsichtlich ihrer Qualitätsauswirkungen"},
+          {"id": "d", "text": "Alle Qualitätsanforderungen als nicht umsetzbar zurückweisen"}
+        ],
+        "correct": ["a", "c"]
+      },
+
+      {
+        "id": 5, "lz": "03-02", "type": "A", "points": 1,
+        "question": "Was ist der Unterschied zwischen Blackbox- und Whitebox-Sicht auf einen Baustein?",
+        "options": [
+          {"id": "a", "text": "Blackbox zeigt die interne Struktur; Whitebox nur die Schnittstellen"},
+          {"id": "b", "text": "Blackbox zeigt nur Schnittstellen und Verantwortlichkeiten; Whitebox zeigt die interne Struktur"},
+          {"id": "c", "text": "Beide Sichten sind identisch, nur der Name unterscheidet sich"},
+          {"id": "d", "text": "Blackbox und Whitebox sind Architekturmuster, keine Sichten"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 6, "lz": "03-02", "type": "K", "points": 2,
+        "question": "Welche Informationen gehören in die Blackbox- bzw. Whitebox-Beschreibung eines Bausteins?",
+        "categories": ["Blackbox-Beschreibung", "Whitebox-Beschreibung"],
+        "options": [
+          {"id": "a", "text": "Öffentliche Schnittstellen und Verantwortlichkeiten", "correct": "Blackbox-Beschreibung"},
+          {"id": "b", "text": "Interne Teilbausteine und deren Beziehungen", "correct": "Whitebox-Beschreibung"},
+          {"id": "c", "text": "Qualitätsmerkmale und bekannte Risiken des Bausteins", "correct": "Blackbox-Beschreibung"},
+          {"id": "d", "text": "Interne Entwurfsentscheidungen und Begründungen", "correct": "Whitebox-Beschreibung"}
+        ]
+      },
+
+      {
+        "id": 7, "lz": "03-03", "type": "A", "points": 1,
+        "question": "Was ist Domain-driven Design (DDD) im Kontext des Architekturentwurfs?",
+        "options": [
+          {"id": "a", "text": "Ein Vorgehensmodell, das die fachliche Domäne in den Mittelpunkt des Entwurfs stellt"},
+          {"id": "b", "text": "Eine Programmiersprache für domänenspezifische Anwendungen"},
+          {"id": "c", "text": "Ein Testverfahren für Domänenlogik"},
+          {"id": "d", "text": "Ein Werkzeug zur automatischen Codegenerierung aus Domänenmodellen"}
+        ],
+        "correct": "a"
+      },
+
+      {
+        "id": 8, "lz": "03-03", "type": "P", "points": 1, "required": 3,
+        "question": "Welche DREI Vorgehensweisen beim Architekturentwurf sind in der Praxis verbreitet?",
+        "options": [
+          {"id": "a", "text": "Top-Down-Entwurf (von der Gesamtstruktur zu Details)"},
+          {"id": "b", "text": "Bottom-Up-Entwurf (von bekannten Bausteinen zur Gesamtstruktur)"},
+          {"id": "c", "text": "Sichtenbasierter Entwurf"},
+          {"id": "d", "text": "Entwurf per Zufallsprinzip"},
+          {"id": "e", "text": "Ausschließlich inkrementeller Entwurf ohne Planung"}
+        ],
+        "correct": ["a", "b", "c"]
+      },
+
+      {
+        "id": 9, "lz": "03-04", "type": "A", "points": 1,
+        "question": "Was ist das Ziel des Separation-of-Concerns-Prinzips?",
+        "options": [
+          {"id": "a", "text": "Alle Verantwortlichkeiten in einem einzigen Baustein zu bündeln"},
+          {"id": "b", "text": "Verschiedene Belange (Concerns) sauber voneinander zu trennen, um Komplexität zu reduzieren"},
+          {"id": "c", "text": "Concerns sind ausschließlich technischer Natur und werden vom Architekten ignoriert"},
+          {"id": "d", "text": "Concerns beschreiben ausschließlich Qualitätsmerkmale"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 10, "lz": "03-04", "type": "K", "points": 2,
+        "question": "Welches Prinzip wird durch das folgende Beispiel illustriert?",
+        "categories": ["Information Hiding", "Dependency Inversion"],
+        "options": [
+          {"id": "a", "text": "Ein Modul verbirgt seine interne Datenbanklogik hinter einer stabilen Schnittstelle", "correct": "Information Hiding"},
+          {"id": "b", "text": "High-Level-Klassen hängen nur von Abstraktionen, nicht von konkreten Implementierungen ab", "correct": "Dependency Inversion"},
+          {"id": "c", "text": "Implementierungsdetails eines Algorithmus sind nach außen nicht sichtbar", "correct": "Information Hiding"},
+          {"id": "d", "text": "Eine Service-Klasse erhält ihre Abhängigkeit per Konstruktor-Injektion als Interface", "correct": "Dependency Inversion"}
+        ]
+      },
+
+      {
+        "id": 11, "lz": "03-04", "type": "P", "points": 1, "required": 2,
+        "question": "Was sind ZWEI Ziele des Prinzips 'Hohe Kohäsion'?",
+        "options": [
+          {"id": "a", "text": "Zusammengehörige Funktionalität in einem Baustein bündeln"},
+          {"id": "b", "text": "Bausteine möglichst groß und umfassend gestalten"},
+          {"id": "c", "text": "Änderungen an einem Baustein haben möglichst wenig Auswirkungen auf andere"},
+          {"id": "d", "text": "Alle Klassen eines Systems in ein einziges Paket zusammenfassen"}
+        ],
+        "correct": ["a", "c"]
+      },
+
+      {
+        "id": 12, "lz": "03-06", "type": "A", "points": 1,
+        "question": "Was beschreibt afferente Kopplung (Incoming Coupling) eines Bausteins?",
+        "options": [
+          {"id": "a", "text": "Die Anzahl der ausgehenden Abhängigkeiten dieses Bausteins"},
+          {"id": "b", "text": "Die Anzahl der eingehenden Abhängigkeiten – d. h. andere Bausteine, die diesen Baustein nutzen"},
+          {"id": "c", "text": "Die zeitliche Reihenfolge, in der Bausteine aufgerufen werden"},
+          {"id": "d", "text": "Die Kopplung zwischen Bausteine in verschiedenen Schichten"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 13, "lz": "03-06", "type": "K", "points": 2,
+        "question": "Ist das folgende Merkmal ein Zeichen für enge oder lose Kopplung?",
+        "categories": ["enge Kopplung", "lose Kopplung"],
+        "options": [
+          {"id": "a", "text": "Baustein A ruft Baustein B direkt über konkrete Klasse auf (kein Interface)", "correct": "enge Kopplung"},
+          {"id": "b", "text": "Kommunikation erfolgt asynchron über einen Message Broker", "correct": "lose Kopplung"},
+          {"id": "c", "text": "Zwei Bausteine teilen sich dieselbe globale Variable", "correct": "enge Kopplung"},
+          {"id": "d", "text": "Abhängigkeiten werden per Dependency Injection zur Laufzeit aufgelöst", "correct": "lose Kopplung"}
+        ]
+      },
+
+      {
+        "id": 14, "lz": "03-08", "type": "A", "points": 1,
+        "question": "Welches Architekturmuster eignet sich besonders gut für die Verarbeitung von Datenströmen?",
+        "options": [
+          {"id": "a", "text": "Schichtenarchitektur (Layered Architecture)"},
+          {"id": "b", "text": "Pipes and Filters"},
+          {"id": "c", "text": "Singleton"},
+          {"id": "d", "text": "Model-View-Controller (MVC)"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 15, "lz": "03-08", "type": "K", "points": 2,
+        "question": "Welches Architekturmuster adressiert welches Problem?",
+        "categories": ["Schichtenarchitektur", "Microservices"],
+        "options": [
+          {"id": "a", "text": "Trennung von Präsentation, Geschäftslogik und Datenhaltung in Schichten", "correct": "Schichtenarchitektur"},
+          {"id": "b", "text": "Unabhängiges Deployment und Skalierung einzelner fachlicher Dienste", "correct": "Microservices"},
+          {"id": "c", "text": "Reduzierung von Abhängigkeiten durch strikte Schichtgrenzen", "correct": "Schichtenarchitektur"},
+          {"id": "d", "text": "Jeder Dienst kann mit eigener Technologie implementiert werden", "correct": "Microservices"}
+        ]
+      },
+
+      {
+        "id": 16, "lz": "03-09", "type": "A", "points": 1,
+        "question": "Was ist ein Entwurfsmuster (Design Pattern) im Sinne von Gamma et al. (GoF)?",
+        "options": [
+          {"id": "a", "text": "Eine fertige Codebibliothek, die direkt verwendet werden kann"},
+          {"id": "b", "text": "Eine bewährte, wiederverwendbare Lösung für ein häufig auftretendes Entwurfsproblem"},
+          {"id": "c", "text": "Ein Architekturstil für verteilte Systeme"},
+          {"id": "d", "text": "Ein UML-Diagrammtyp zur Darstellung von Klassen"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 17, "lz": "03-09", "type": "P", "points": 1, "required": 3,
+        "question": "Welche DREI der folgenden sind klassische Kategorien von GoF-Entwurfsmustern?",
+        "options": [
+          {"id": "a", "text": "Erzeugungsmuster (Creational Patterns)"},
+          {"id": "b", "text": "Strukturmuster (Structural Patterns)"},
+          {"id": "c", "text": "Verhaltensmuster (Behavioral Patterns)"},
+          {"id": "d", "text": "Testmuster (Test Patterns)"},
+          {"id": "e", "text": "Deployment-Muster"}
+        ],
+        "correct": ["a", "b", "c"]
+      },
+
+      {
+        "id": 18, "lz": "03-09", "type": "K", "points": 2,
+        "question": "Welcher GoF-Musterkategorie gehört das folgende Muster an?",
+        "categories": ["Erzeugungsmuster", "Verhaltensmuster"],
+        "options": [
+          {"id": "a", "text": "Factory Method – erzeugt Objekte ohne konkrete Klasse anzugeben", "correct": "Erzeugungsmuster"},
+          {"id": "b", "text": "Observer – definiert eine 1:n-Abhängigkeit zwischen Objekten", "correct": "Verhaltensmuster"},
+          {"id": "c", "text": "Singleton – stellt sicher, dass eine Klasse nur eine Instanz hat", "correct": "Erzeugungsmuster"},
+          {"id": "d", "text": "Strategy – definiert eine Familie austauschbarer Algorithmen", "correct": "Verhaltensmuster"}
+        ]
+      },
+
+      {
+        "id": 19, "lz": "03-10", "type": "A", "points": 1,
+        "question": "Was versteht man unter einem Querschnittskonzept (Cross-cutting Concern)?",
+        "options": [
+          {"id": "a", "text": "Ein Konzept, das ausschließlich in der Datenbankschicht gilt"},
+          {"id": "b", "text": "Ein Konzept, das mehrere Bausteine oder Schichten des Systems betrifft und systemweit konsistent umgesetzt werden muss"},
+          {"id": "c", "text": "Ein Konzept, das nur für externe Schnittstellen relevant ist"},
+          {"id": "d", "text": "Ein Sicherheitsstandard, der von außen vorgeschrieben wird"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 20, "lz": "03-10", "type": "P", "points": 1, "required": 3,
+        "question": "Welche DREI der folgenden sind typische Querschnittskonzepte?",
+        "options": [
+          {"id": "a", "text": "Logging und Tracing"},
+          {"id": "b", "text": "Ausnahmebehandlung (Exception Handling)"},
+          {"id": "c", "text": "Authentifizierung und Autorisierung"},
+          {"id": "d", "text": "Urlaubsplanung des Teams"},
+          {"id": "e", "text": "Farbgestaltung der Benutzeroberfläche"}
+        ],
+        "correct": ["a", "b", "c"]
+      },
+
+      {
+        "id": 21, "lz": "03-11", "type": "A", "points": 1,
+        "question": "Was ist ein wesentliches Ziel von Continuous Delivery (CD)?",
+        "options": [
+          {"id": "a", "text": "Software nur einmal im Jahr in Produktion zu deployen"},
+          {"id": "b", "text": "Software jederzeit zuverlässig und automatisiert in Produktion deployen zu können"},
+          {"id": "c", "text": "Manuelle Tests als einzige Qualitätssicherungsmaßnahme einzusetzen"},
+          {"id": "d", "text": "Den Quellcode ausschließlich lokal ohne Versionskontrolle zu verwalten"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 22, "lz": "03-11", "type": "K", "points": 1,
+        "question": "Ist die folgende Aussage zum Thema Software-Deployment zutreffend oder nicht?",
+        "categories": ["zutreffend", "nicht zutreffend"],
+        "options": [
+          {"id": "a", "text": "Architektonische Entscheidungen können den Deployment-Prozess erheblich beeinflussen", "correct": "zutreffend"},
+          {"id": "b", "text": "Container-Technologien wie Docker sind für den Softwarearchitekten vollständig irrelevant", "correct": "nicht zutreffend"},
+          {"id": "c", "text": "Die Verteilungssicht der Architektur beschreibt, welche Bausteine auf welcher Infrastruktur laufen", "correct": "zutreffend"},
+          {"id": "d", "text": "Deployment-Entscheidungen werden immer ausschließlich vom IT-Betrieb getroffen, ohne Einfluss der Architektur", "correct": "nicht zutreffend"}
+        ]
+      },
+
+      {
+        "id": 23, "lz": "04-03", "type": "A", "points": 1,
+        "question": "Wofür wird UML (Unified Modeling Language) in der Softwarearchitektur hauptsächlich verwendet?",
+        "options": [
+          {"id": "a", "text": "Als einzig zulässige Sprache für Anforderungsdokumente"},
+          {"id": "b", "text": "Zur standardisierten, grafischen Beschreibung von Strukturen und Abläufen in Softwaresystemen"},
+          {"id": "c", "text": "Als Programmiersprache für modellgetriebene Entwicklung"},
+          {"id": "d", "text": "Ausschließlich zur Dokumentation von Datenbankmodellen"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 24, "lz": "04-03", "type": "P", "points": 1, "required": 2,
+        "question": "Welche ZWEI UML-Diagrammtypen eignen sich besonders zur Darstellung der statischen Struktur?",
+        "options": [
+          {"id": "a", "text": "Klassendiagramm"},
+          {"id": "b", "text": "Sequenzdiagramm"},
+          {"id": "c", "text": "Komponentendiagramm"},
+          {"id": "d", "text": "Aktivitätsdiagramm"}
+        ],
+        "correct": ["a", "c"]
+      },
+
+      {
+        "id": 25, "lz": "04-03", "type": "K", "points": 2,
+        "question": "Welcher UML-Diagrammtyp eignet sich für welchen Zweck?",
+        "categories": ["statische Struktur", "dynamisches Verhalten"],
+        "options": [
+          {"id": "a", "text": "Komponentendiagramm – zeigt Bausteine und ihre Abhängigkeiten", "correct": "statische Struktur"},
+          {"id": "b", "text": "Sequenzdiagramm – zeigt zeitliche Abfolge von Nachrichten zwischen Objekten", "correct": "dynamisches Verhalten"},
+          {"id": "c", "text": "Paketdiagramm – zeigt Gruppierung und Abhängigkeiten von Paketen", "correct": "statische Struktur"},
+          {"id": "d", "text": "Zustandsdiagramm – zeigt Zustände und Übergänge eines Objekts", "correct": "dynamisches Verhalten"}
+        ]
+      },
+
+      {
+        "id": 26, "lz": "04-05", "type": "A", "points": 1,
+        "question": "Welche Architektursicht zeigt die Verteilung von Bausteinen auf physische Infrastruktur (z. B. Server, Container)?",
+        "options": [
+          {"id": "a", "text": "Bausteinsicht"},
+          {"id": "b", "text": "Laufzeitsicht"},
+          {"id": "c", "text": "Kontextsicht"},
+          {"id": "d", "text": "Verteilungssicht (Deployment-Sicht)"}
+        ],
+        "correct": "d"
+      },
+
+      {
+        "id": 27, "lz": "04-06", "type": "P", "points": 1, "required": 3,
+        "question": "Welche DREI Aspekte sollte eine vollständige Schnittstellendokumentation enthalten?",
+        "options": [
+          {"id": "a", "text": "Syntax der Schnittstelle (Operationen, Parameter, Rückgabetypen)"},
+          {"id": "b", "text": "Persönliche Bewertungen des Entwicklers"},
+          {"id": "c", "text": "Semantik (fachliche Bedeutung der Operationen und Parameter)"},
+          {"id": "d", "text": "Nicht-funktionale Eigenschaften (z. B. Performanceerwartungen, Fehlerverhalten)"},
+          {"id": "e", "text": "Interner Quellcode der Implementierung"}
+        ],
+        "correct": ["a", "c", "d"]
+      },
+
+      {
+        "id": 28, "lz": "05-01", "type": "A", "points": 1,
+        "question": "Was ist der Hauptzweck einer Architekturanalyse (Architecture Evaluation)?",
+        "options": [
+          {"id": "a", "text": "Den Projektplan zu erstellen"},
+          {"id": "b", "text": "Festzustellen, ob der Architekturentwurf geeignet ist, die Anforderungen – insbesondere Qualitätsanforderungen – zu erfüllen"},
+          {"id": "c", "text": "Die Implementierung vollständig zu ersetzen"},
+          {"id": "d", "text": "Personalentscheidungen im Team zu treffen"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 29, "lz": "05-02", "type": "K", "points": 2,
+        "question": "Handelt es sich um eine quantitative oder qualitative Methode zur Qualitätsanalyse?",
+        "categories": ["quantitative Methode", "qualitative Methode"],
+        "options": [
+          {"id": "a", "text": "Messung der zyklomatischen Komplexität von Modulen", "correct": "quantitative Methode"},
+          {"id": "b", "text": "ATAM (Architecture Tradeoff Analysis Method)", "correct": "qualitative Methode"},
+          {"id": "c", "text": "Erfassung der Antwortzeiten unter Last", "correct": "quantitative Methode"},
+          {"id": "d", "text": "Expertenbasierter Architecture Review", "correct": "qualitative Methode"}
+        ]
+      },
+
+      {
+        "id": 30, "lz": "06-01", "type": "A", "points": 1,
+        "question": "Was bedeutet es, den Bezug zwischen Anforderungen und der Lösungsarchitektur herzustellen?",
+        "options": [
+          {"id": "a", "text": "Alle Anforderungen werden direkt in Code umgesetzt, ohne Architekturbeschreibung"},
+          {"id": "b", "text": "Jede Architekturentscheidung lässt sich auf eine oder mehrere Anforderungen oder Randbedingungen zurückführen"},
+          {"id": "c", "text": "Anforderungen und Architektur werden getrennt von verschiedenen Teams entwickelt und nie abgeglichen"},
+          {"id": "d", "text": "Nur funktionale Anforderungen haben einen Bezug zur Architektur"}
+        ],
+        "correct": "b"
+      },
+
+      {
+        "id": 31, "lz": "06-01", "type": "K", "points": 2,
+        "question": "Welche Aussagen zum Bezug zwischen Anforderungen und Architekturlösung sind richtig oder falsch?",
+        "categories": ["richtig", "falsch"],
+        "options": [
+          {"id": "a", "text": "Qualitätsanforderungen begründen häufig wichtige Architekturentscheidungen", "correct": "richtig"},
+          {"id": "b", "text": "Randbedingungen haben keinen Einfluss auf die gewählte Lösungsarchitektur", "correct": "falsch"},
+          {"id": "c", "text": "Architekturentscheidungen sollten rückverfolgbar zu Anforderungen oder Randbedingungen sein", "correct": "richtig"},
+          {"id": "d", "text": "Nur der Product Owner muss den Bezug zwischen Anforderungen und Architektur kennen", "correct": "falsch"}
+        ]
+      },
+
+      {
+        "id": 32, "lz": "03-06", "type": "P", "points": 2, "required": 3,
+        "question": "Welche DREI Aussagen zur Kopplung und Kohäsion sind richtig?",
+        "options": [
+          {"id": "a", "text": "Enge Kopplung ermöglicht leichtere Änderungen und bessere Wartbarkeit"},
+          {"id": "b", "text": "Hohe Kohäsion bedeutet, dass zusammenhängende Funktionen in einem Baustein konzentriert sind"},
+          {"id": "c", "text": "Afferente Kopplung misst die Abhängigkeiten, die ein Baustein von außen hat"},
+          {"id": "d", "text": "Lose Kopplung reduziert die Auswirkungen von Änderungen an anderen Bausteinen"},
+          {"id": "e", "text": "Niedrige Kohäsion führt zu stabilen und wartbaren Systemen"}
+        ],
+        "correct": ["b", "c", "d"]
+      },
+
+      {
+        "id": 33, "lz": "03-03", "type": "K", "points": 2,
+        "question": "Welcher Entwurfsansatz passt zu welcher Beschreibung?",
+        "categories": ["Domain-driven Design", "Sichtenbasierter Entwurf"],
+        "options": [
+          {"id": "a", "text": "Fokussiert auf die Zerlegung des Systems in unterschiedliche Perspektiven (Baustein-, Laufzeit-, Verteilungssicht)", "correct": "Sichtenbasierter Entwurf"},
+          {"id": "b", "text": "Legt Wert auf die Abstraktion von Geschäftsbereichen und die Verwendung einer einheitlichen fachlichen Sprache", "correct": "Domain-driven Design"},
+          {"id": "c", "text": "Nutzt Bounded Contexts zur Abgrenzung von Domänenbereichen", "correct": "Domain-driven Design"},
+          {"id": "d", "text": "Nutzt Blackbox- und Whitebox-Beschreibungen zur Darstellung von Bausteinen", "correct": "Sichtenbasierter Entwurf"}
+        ]
+      },
+
+      {
+        "id": 34, "lz": "03-10", "type": "P", "points": 2, "required": 2,
+        "question": "Welche ZWEI Probleme entstehen häufig bei der Implementierung von Querschnittskonzepten mit konventionellen Mitteln?",
+        "options": [
+          {"id": "a", "text": "Code-Duplikation und Streuung der Implementierung über mehrere Module"},
+          {"id": "b", "text": "Querschnittskonzepte lassen sich überhaupt nicht implementieren"},
+          {"id": "c", "text": "Erschwerte Wartbarkeit, da Änderungen an vielen Stellen erforderlich sind"},
+          {"id": "d", "text": "Querschnittskonzepte sind immer einfach zu handhaben"}
+        ],
+        "correct": ["a", "c"]
+      },
+
+      {
+        "id": 35, "lz": "03-08", "type": "K", "points": 2,
+        "question": "Welche Stärken und Schwächen charakterisieren das Muster?",
+        "categories": ["Stärke der Schichtenarchitektur", "Schwäche der Schichtenarchitektur"],
+        "options": [
+          {"id": "a", "text": "Klare Separation von Concerns und organisatorische Übersichtlichkeit", "correct": "Stärke der Schichtenarchitektur"},
+          {"id": "b", "text": "Potentielles Performance-Problem durch mehrere Schichtdurchläufe", "correct": "Schwäche der Schichtenarchitektur"},
+          {"id": "c", "text": "Schwierigkeiten bei der Aufteilung horizontaler Schichten in vertikale Services", "correct": "Schwäche der Schichtenarchitektur"},
+          {"id": "d", "text": "Gute Unterstützung für Team-Struktur und parallele Entwicklung", "correct": "Stärke der Schichtenarchitektur"}
+        ]
+      },
+
+      {
+        "id": 36, "lz": "03-01", "type": "P", "points": 2, "required": 3,
+        "question": "Welche DREI Strategien helfen einem Architekten, Qualitätsziele explizit in der Architektur umzusetzen?",
+        "options": [
+          {"id": "a", "text": "Explizite Verfolgung der Qualitätsziele durch Architekturmuster und Taktiken"},
+          {"id": "b", "text": "Minimierung aller Kosten unabhängig von Qualitätsauswirkungen"},
+          {"id": "c", "text": "Tradeoff-Analyse zwischen konkurrierenden Qualitätszielen"},
+          {"id": "d", "text": "Dokumentation und Rückverfolgbarkeit der Entscheidungen zu Qualitätszielen"},
+          {"id": "e", "text": "Keine Dokumentation erforderlich, nur Implementierung"}
+        ],
+        "correct": ["a", "c", "d"]
+      },
+
+      {
+        "id": 37, "lz": "04-05", "type": "K", "points": 2,
+        "question": "Welche Sicht ist für welchen Zweck primär relevant?",
+        "categories": ["Laufzeitsicht", "Verteilungssicht"],
+        "options": [
+          {"id": "a", "text": "Zeigt dynamische Interaktionen zwischen Komponenten zur Laufzeit", "correct": "Laufzeitsicht"},
+          {"id": "b", "text": "Beschreibt die Zuordnung von Baustenen zu physischer Infrastruktur", "correct": "Verteilungssicht"},
+          {"id": "c", "text": "Ist für die Analyse von Concurrency und Parallelität relevant", "correct": "Laufzeitsicht"},
+          {"id": "d", "text": "Ist kritisch für die Planung von Deployment und Infrastrukturmanagement", "correct": "Verteilungssicht"}
+        ]
+      },
+
+      {
+        "id": 38, "lz": "03-09", "type": "P", "points": 2, "required": 2,
+        "question": "Welche ZWEI Aussagen zu Entwurfsmustern sind richtig?",
+        "options": [
+          {"id": "a", "text": "Factory Pattern ist ein Erzeugungsmuster, das die Objekterzeugung kapselt"},
+          {"id": "b", "text": "Alle Entwurfsmuster sind direkt aus Code kopierbar und bedürfen keiner Adaption"},
+          {"id": "c", "text": "Das Observer-Pattern definiert eine lose Kopplung zwischen Subjekten und Beobachtern"},
+          {"id": "d", "text": "Entwurfsmuster sind immer technischer Natur und nicht fachlich motiviert"}
+        ],
+        "correct": ["a", "c"]
+      },
+
+      {
+        "id": 39, "lz": "05-02", "type": "P", "points": 2, "required": 3,
+        "question": "Welche DREI Techniken sind Bestandteil qualitativser Architekturbewertungen?",
+        "options": [
+          {"id": "a", "text": "ATAM (Architecture Tradeoff Analysis Method)"},
+          {"id": "b", "text": "Vollständige Neuimplementierung des Systems"},
+          {"id": "c", "text": "Architecture Review mit Experten"},
+          {"id": "d", "text": "Szenario-basierte Analyse"},
+          {"id": "e", "text": "Zufallsbasierte Testvalidierung"}
+        ],
+        "correct": ["a", "c", "d"]
+      },
+
+      {
+        "id": 40, "lz": "03-04", "type": "K", "points": 2,
+        "question": "Welches Prinzip beschreibt welche Eigenschaft?",
+        "categories": ["Separation of Concerns", "Information Hiding"],
+        "options": [
+          {"id": "a", "text": "Verschiedene funktionale Belange sollen in separaten Bausteinen implementiert werden", "correct": "Separation of Concerns"},
+          {"id": "b", "text": "Implementierungsdetails sollten hinter stabilen Schnittstellen verborgen sein", "correct": "Information Hiding"},
+          {"id": "c", "text": "Reduziert Abhängigkeiten zwischen Modulen durch klare Verantwortlichkeiten", "correct": "Separation of Concerns"},
+          {"id": "d", "text": "Ermöglicht es, interne Implementierung zu ändern, ohne die öffentliche Schnittstelle zu beeinflussen", "correct": "Information Hiding"}
+        ]
+      },
+
+      {
+        "id": 41, "lz": "03-02", "type": "P", "points": 2, "required": 3,
+        "question": "Welche DREI Informationen sind essenziell für eine vollständige Baustein-Dokumentation?",
+        "options": [
+          {"id": "a", "text": "Klare Definition der Verantwortlichkeiten und Aufgaben des Bausteins"},
+          {"id": "b", "text": "Farbe des Logos für die Präsentation"},
+          {"id": "c", "text": "Schnittstellen mit ihrer Syntax und Semantik"},
+          {"id": "d", "text": "Interne Struktur (Whitebox) oder Behandlung als Black-Box"},
+          {"id": "e", "text": "Namen aller Entwickler, die den Code geschrieben haben"}
+        ],
+        "correct": ["a", "c", "d"]
+      }
+
+    ]
+  }
+}
