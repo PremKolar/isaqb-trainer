@@ -32,7 +32,7 @@
       {
         "id": 2,
         "type": "P",
-        "points": 3,
+        "points": 2,
         "required": 3,
         "question": "Welche DREI der folgenden Aussagen über Querschnittskonzepte sind korrekt?",
         "options": [
@@ -359,7 +359,7 @@
       {
         "id": 13,
         "type": "P",
-        "points": 3,
+        "points": 2,
         "required": 2,
         "question": "Welche ZWEI Aussagen zu hoher Kohäsion sind KORREKT?",
         "options": [
@@ -524,7 +524,7 @@
       {
         "id": 19,
         "type": "P",
-        "points": 3,
+        "points": 2,
         "required": 3,
         "question": "Welche DREI der folgenden sind zentrale Lernziele des iSAQB CPSA-F?",
         "options": [
@@ -809,7 +809,7 @@
       {
         "id": 29,
         "type": "P",
-        "points": 3,
+        "points": 2,
         "required": 3,
         "question": "Welche DREI der folgenden Qualitätsmerkmale sind nach ISO/IEC 25010 wesentlich?",
         "options": [
@@ -1008,7 +1008,7 @@
       {
         "id": 36,
         "type": "P",
-        "points": 3,
+        "points": 2,
         "required": 3,
         "question": "Welche DREI sind typische Stakeholder und ihre Anliegen für ein Softwaresystem?",
         "options": [
@@ -1603,7 +1603,7 @@
       {
         "id": 57,
         "type": "P",
-        "points": 3,
+        "points": 2,
         "required": 2,
         "question": "Welche ZWEI der folgenden sind wichtige Aspekte der Architektur-Evolution?",
         "options": [
