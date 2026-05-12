@@ -1,0 +1,2838 @@
+{
+  "exam": {
+    "title": "iSAQB CPSA-FL – Prüfungsvorbereitung (100 Fragen, schwer)",
+    "time_limit_minutes": 120,
+    "pass_threshold": 0.6,
+    "questions": [
+      {
+        "id": 1,
+        "type": "A",
+        "points": 2,
+        "question": "Welche Aussage beschreibt den Unterschied zwischen einer Architekturbeschreibung und einer Architektur am treffendsten?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Es gibt keinen Unterschied, die Begriffe sind Synonyme"
+          },
+          {
+            "id": "b",
+            "text": "Eine Architektur ist das tatsächliche System, eine Architekturbeschreibung ist das Arbeitsergebnis, das zur Vermittlung dieser Architektur genutzt wird"
+          },
+          {
+            "id": "c",
+            "text": "Eine Architekturbeschreibung ist immer detaillierter als die Architektur selbst"
+          },
+          {
+            "id": "d",
+            "text": "Eine Architektur existiert nur in Dokumenten, eine Architekturbeschreibung ist die gelebte Realität"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 2,
+        "type": "P",
+        "points": 3,
+        "required": 3,
+        "question": "Welche DREI der folgenden Aussagen über Querschnittskonzepte sind korrekt?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sie betreffen mehrere Bausteine oder Sichten"
+          },
+          {
+            "id": "b",
+            "text": "Sie können nur in der Bausteinsicht dokumentiert werden"
+          },
+          {
+            "id": "c",
+            "text": "Sicherheit ist ein typisches Beispiel für ein Querschnittsthema"
+          },
+          {
+            "id": "d",
+            "text": "Sie sind immer auf einem einzelnen Layer implementiert"
+          },
+          {
+            "id": "e",
+            "text": "Sie können z.B. Persistenz, Logging oder Fehlerbehandlung betreffen"
+          }
+        ],
+        "correct": [
+          "a",
+          "c",
+          "e"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die folgenden Elemente als architekturrelevant oder nicht-architekturrelevant ein:",
+        "categories": [
+          "architekturrelevant",
+          "nicht-architekturrelevant"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Wahl zwischen monolithischer Architektur vs. Microservices",
+            "correct": "architekturrelevant"
+          },
+          {
+            "id": "b",
+            "text": "Variablennamen in einer privaten Methode",
+            "correct": "nicht-architekturrelevant"
+          },
+          {
+            "id": "c",
+            "text": "Datenspeicherungsstrategie (Datenbank-Design, Partitionierung)",
+            "correct": "architekturrelevant"
+          },
+          {
+            "id": "d",
+            "text": "Wahl des Formatters für Code-Styling (Tabs vs. Spaces)",
+            "correct": "nicht-architekturrelevant"
+          },
+          {
+            "id": "e",
+            "text": "Kommunikationsprotokoll zwischen Services (Sync vs. Async)",
+            "correct": "architekturrelevant"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "A",
+        "points": 2,
+        "question": "Welches Prinzip besagt, dass eine Software offen für Erweiterung, aber geschlossen für Modifikation sein sollte?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Single Responsibility Principle (SRP)"
+          },
+          {
+            "id": "b",
+            "text": "Open/Closed Principle (OCP)"
+          },
+          {
+            "id": "c",
+            "text": "Liskov Substitution Principle (LSP)"
+          },
+          {
+            "id": "d",
+            "text": "Dependency Inversion Principle (DIP)"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 5,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zur Schichtenarchitektur (Layered Architecture) sind korrekt?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Abhängigkeiten können in beide Richtungen zwischen Layern fließen"
+          },
+          {
+            "id": "b",
+            "text": "Sie ermöglicht eine klare Trennung von Belangen (Separation of Concerns)"
+          },
+          {
+            "id": "c",
+            "text": "Sie ist immer die optimale Lösung für verteilte Systeme"
+          },
+          {
+            "id": "d",
+            "text": "Ein Layer kann mehrere abstraktere Layer überspringen und mit weiter oben liegenden Layern kommunizieren"
+          }
+        ],
+        "correct": [
+          "b",
+          "d"
+        ]
+      },
+      {
+        "id": 6,
+        "type": "K",
+        "points": 2,
+        "question": "Klassifizieren Sie die folgenden Qualitätsmerkmale gemäß ISO/IEC 25010 als funktional oder nicht-funktional:",
+        "categories": [
+          "funktional",
+          "nicht-funktional"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Korrekte Berechnung von Geschäftslogik",
+            "correct": "funktional"
+          },
+          {
+            "id": "b",
+            "text": "Sicherheit gegen Unbefugte Zugriffe",
+            "correct": "nicht-funktional"
+          },
+          {
+            "id": "c",
+            "text": "Anwendungsfall-Implementierung",
+            "correct": "funktional"
+          },
+          {
+            "id": "d",
+            "text": "Zuverlässigkeit und Verfügbarkeit",
+            "correct": "nicht-funktional"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist eine Szenario im Kontext der Architektur-Anforderungen?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ein umgedachter Anwendungsfall der Software"
+          },
+          {
+            "id": "b",
+            "text": "Eine Beschreibung einer Qualitätsanforderung in Kontext mit Stimulus, Quelle und Messung"
+          },
+          {
+            "id": "c",
+            "text": "Ein Projekt-Zeitplan für die Entwicklung"
+          },
+          {
+            "id": "d",
+            "text": "Eine Liste aller möglichen Fehler in einem System"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 8,
+        "type": "P",
+        "points": 2,
+        "required": 3,
+        "question": "Welche DREI der folgenden Herausforderungen sind typisch für verteilte Systeme?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Netzwerkteilausfälle und Latenz"
+          },
+          {
+            "id": "b",
+            "text": "Fehlende Code-Dokumentation"
+          },
+          {
+            "id": "c",
+            "text": "Konsistenz von Daten über mehrere Knoten hinweg"
+          },
+          {
+            "id": "d",
+            "text": "Zeitliche Entkopplung und asynchrone Kommunikation"
+          },
+          {
+            "id": "e",
+            "text": "Zu viele Unit-Tests"
+          }
+        ],
+        "correct": [
+          "a",
+          "c",
+          "d"
+        ]
+      },
+      {
+        "id": 9,
+        "type": "A",
+        "points": 1,
+        "question": "Was verstehen Sie unter dem Prinzip 'Divide et impera' im Kontext des Architekturentwurfs?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Eine agressive Verhandlungsstrategie mit Stakeholdern"
+          },
+          {
+            "id": "b",
+            "text": "Teile das Problem in kleinere, unabhängige Teile und löse sie nacheinander"
+          },
+          {
+            "id": "c",
+            "text": "Konzentriere die gesamte Komplexität in einem zentralen Modul"
+          },
+          {
+            "id": "d",
+            "text": "Verwende nur ein einziges Entwurfsmuster für das gesamte System"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 10,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zu Abhängigkeitsinjection (DI) sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sie ermöglicht das Dependency Inversion Principle (DIP)"
+          },
+          {
+            "id": "b",
+            "text": "Sie erhöht automatisch die Performance eines Systems"
+          },
+          {
+            "id": "c",
+            "text": "Sie macht Unit-Tests einfacher, weil Abhängigkeiten gemockt werden können"
+          },
+          {
+            "id": "d",
+            "text": "Sie ist nur für Java-Anwendungen relevant"
+          }
+        ],
+        "correct": [
+          "a",
+          "c"
+        ]
+      },
+      {
+        "id": 11,
+        "type": "A",
+        "points": 2,
+        "question": "Welches Architekturmuster ist für interaktive Systeme mit grafischer Benutzeroberfläche am relevantesten?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pipes and Filters"
+          },
+          {
+            "id": "b",
+            "text": "Model-View-Controller (MVC)"
+          },
+          {
+            "id": "c",
+            "text": "Broker-Pattern"
+          },
+          {
+            "id": "d",
+            "text": "Blackboard"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 12,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die folgenden Muster als Strukturmuster oder Integrationsmuster ein:",
+        "categories": [
+          "Strukturmuster",
+          "Integrationsmuster"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Ports & Adapters (Hexagonal Architecture)",
+            "correct": "Strukturmuster"
+          },
+          {
+            "id": "b",
+            "text": "Enterprise Service Bus (ESB)",
+            "correct": "Integrationsmuster"
+          },
+          {
+            "id": "c",
+            "text": "Microservices",
+            "correct": "Strukturmuster"
+          },
+          {
+            "id": "d",
+            "text": "Event-Driven Architecture",
+            "correct": "Integrationsmuster"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "type": "P",
+        "points": 3,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zu hoher Kohäsion sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sie bedeutet, dass die Verantwortlichkeiten innerhalb eines Bausteins eng miteinander verbunden sind"
+          },
+          {
+            "id": "b",
+            "text": "Hohe Kohäsion führt automatisch zu niedriger Kopplung"
+          },
+          {
+            "id": "c",
+            "text": "Sie erschwert die Wartbarkeit und Testbarkeit eines Bausteins"
+          },
+          {
+            "id": "d",
+            "text": "Sie wird angestrebt, um zusammenhängende Funktionalität beisammen zu halten"
+          }
+        ],
+        "correct": [
+          "a",
+          "d"
+        ]
+      },
+      {
+        "id": 14,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist die Hauptaufgabe der Bausteinsicht (Component View) in einer Architekturbeschreibung?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Die Darstellung der Kommunikation zur Laufzeit zwischen Prozessen"
+          },
+          {
+            "id": "b",
+            "text": "Die Darstellung der statischen Struktur des Systems mit seinen Komponenten und deren Abhängigkeiten"
+          },
+          {
+            "id": "c",
+            "text": "Die Beschreibung der physischen Aufteilung der Software auf Servern und Infrastruktur"
+          },
+          {
+            "id": "d",
+            "text": "Die Darstellung aller Datenflüsse zwischen Benutzern und dem System"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 15,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI der folgenden sind wichtige Praxisregeln für die Dokumentation von Softwarearchitekturen?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Vermeiden Sie Mehrdeutigkeit durch präzise Ausdrucksweise"
+          },
+          {
+            "id": "b",
+            "text": "Machen Sie die Dokumentation so komplex wie möglich, um Expertise zu demonstrieren"
+          },
+          {
+            "id": "c",
+            "text": "Begründen Sie wesentliche Entscheidungen schriftlich"
+          },
+          {
+            "id": "d",
+            "text": "Überprüfen Sie die Dokumentation auf Gebrauchstauglichkeit"
+          }
+        ],
+        "correct": [
+          "a",
+          "c"
+        ]
+      },
+      {
+        "id": 16,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist der Zweck der Laufzeitsicht (Runtime View) einer Architektur?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sie zeigt, wie Komponenten zur Laufzeit miteinander interagieren und kommunizieren"
+          },
+          {
+            "id": "b",
+            "text": "Sie beschreibt nur die Performance-Charakteristiken des Systems"
+          },
+          {
+            "id": "c",
+            "text": "Sie ist identisch mit der Bausteinsicht"
+          },
+          {
+            "id": "d",
+            "text": "Sie dokumentiert nur die Fehlerbehandlung"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": 17,
+        "type": "K",
+        "points": 2,
+        "question": "Klassifizieren Sie die Aufgaben als Aufgabe eines Softwarearchitekten oder nicht:",
+        "categories": [
+          "Aufgabe des Architekten",
+          "nicht Aufgabe des Architekten"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Strukturentscheidungen treffen und dokumentieren",
+            "correct": "Aufgabe des Architekten"
+          },
+          {
+            "id": "b",
+            "text": "Jede einzelne Codezeile selbst schreiben",
+            "correct": "nicht Aufgabe des Architekten"
+          },
+          {
+            "id": "c",
+            "text": "Querschnittsthemen wie Sicherheit und Persistenz entscheiden",
+            "correct": "Aufgabe des Architekten"
+          },
+          {
+            "id": "d",
+            "text": "Urlaub von Entwicklern planen",
+            "correct": "nicht Aufgabe des Architekten"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "A",
+        "points": 1,
+        "question": "Welche Aussage zum Single Responsibility Principle (SRP) ist am treffendsten?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jede Klasse sollte nur eine Methode haben"
+          },
+          {
+            "id": "b",
+            "text": "Jede Komponente sollte nur einen Grund haben, sich zu ändern"
+          },
+          {
+            "id": "c",
+            "text": "Nur eine Person darf die Software ändern"
+          },
+          {
+            "id": "d",
+            "text": "Ein Projekt sollte nur einen Projektmanager haben"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 19,
+        "type": "P",
+        "points": 3,
+        "required": 3,
+        "question": "Welche DREI der folgenden sind zentrale Lernziele des iSAQB CPSA-F?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mit anderen Beteiligten (Anforderungen, PM, Test, Entwicklung) Architekturentscheidungen abstimmen"
+          },
+          {
+            "id": "b",
+            "text": "Jedes Detail jedes Frameworks kennen"
+          },
+          {
+            "id": "c",
+            "text": "Architekturentscheidungen kommunizieren und dokumentieren"
+          },
+          {
+            "id": "d",
+            "text": "Architekturentwurf für kleine bis mittlere Systeme selbstständig durchführen"
+          },
+          {
+            "id": "e",
+            "text": "Expert in allen Programmiersprachen werden"
+          }
+        ],
+        "correct": [
+          "a",
+          "c",
+          "d"
+        ]
+      },
+      {
+        "id": 20,
+        "type": "A",
+        "points": 2,
+        "question": "Welches Designmuster ermöglicht die flexible Anpassung einer existierenden Schnittstelle an eine andere Schnittstelle?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Observer-Pattern"
+          },
+          {
+            "id": "b",
+            "text": "Adapter-Pattern"
+          },
+          {
+            "id": "c",
+            "text": "Decorator-Pattern"
+          },
+          {
+            "id": "d",
+            "text": "Proxy-Pattern"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 21,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen über das Information Hiding Prinzip sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Es verbirgt Implementierungsdetails vor der Außenwelt"
+          },
+          {
+            "id": "b",
+            "text": "Es erlaubt es, interne Implementierung zu ändern, ohne externe Schnittstellen zu beeinflussen"
+          },
+          {
+            "id": "c",
+            "text": "Es bedeutet, dass alle Daten öffentlich sein sollten"
+          },
+          {
+            "id": "d",
+            "text": "Es ermöglicht Entkopplung zwischen Komponenten"
+          }
+        ],
+        "correct": [
+          "a",
+          "b"
+        ]
+      },
+      {
+        "id": 22,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die Kategorien als explizite oder implizite Anforderungen ein:",
+        "categories": [
+          "explizit",
+          "implizit"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Im Lastenheft dokumentierte funktionale Anforderung",
+            "correct": "explizit"
+          },
+          {
+            "id": "b",
+            "text": "Unstated Expectation eines Stakeholders (z.B. Sicherheitsstandards)",
+            "correct": "implizit"
+          },
+          {
+            "id": "c",
+            "text": "Vertraglich vereinbarte Verfügbarkeitsanforderung",
+            "correct": "explizit"
+          },
+          {
+            "id": "d",
+            "text": "Kulturelle oder regulatorische Anforderungen, die nie erwähnt werden",
+            "correct": "implizit"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "type": "A",
+        "points": 2,
+        "question": "Welche Schicht eines typischen Schichtenarchitektur-Systems ist für die Koordination und Geschäftslogik zuständig?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Presentation Layer"
+          },
+          {
+            "id": "b",
+            "text": "Business Logic Layer (auch Application oder Service Layer genannt)"
+          },
+          {
+            "id": "c",
+            "text": "Persistence Layer"
+          },
+          {
+            "id": "d",
+            "text": "Infrastructure Layer"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 24,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen über Microservices sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sie müssen immer über REST kommunizieren"
+          },
+          {
+            "id": "b",
+            "text": "Jeder Service sollte seine eigene Datenhaltung haben"
+          },
+          {
+            "id": "c",
+            "text": "Sie können unabhängig voneinander deployed werden"
+          },
+          {
+            "id": "d",
+            "text": "Sie sind immer einfacher zu verstehen als monolithische Systeme"
+          }
+        ],
+        "correct": [
+          "b",
+          "c"
+        ]
+      },
+      {
+        "id": 25,
+        "type": "A",
+        "points": 2,
+        "question": "Welche Architektur-Framework beschreibt Softwarearchitektur durch 4+1 Sichten?",
+        "options": [
+          {
+            "id": "a",
+            "text": "arc42"
+          },
+          {
+            "id": "b",
+            "text": "Kruchten 4+1 Framework"
+          },
+          {
+            "id": "c",
+            "text": "TOGAF"
+          },
+          {
+            "id": "d",
+            "text": "C4 Model"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 26,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zu zyklischen Abhängigkeiten sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sie sollten grundsätzlich vermieden werden"
+          },
+          {
+            "id": "b",
+            "text": "Sie erleichtern das Verständnis und die Wartbarkeit"
+          },
+          {
+            "id": "c",
+            "text": "Sie können durch Umkehr von Abhängigkeiten aufgelöst werden"
+          },
+          {
+            "id": "d",
+            "text": "Sie sind in modernen Systemen immer notwendig"
+          }
+        ],
+        "correct": [
+          "a",
+          "c"
+        ]
+      },
+      {
+        "id": 27,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die Elemente als Aspekte der Architekturanalyse oder der Architektur-Bewertung zu:",
+        "categories": [
+          "Architekturanalyse",
+          "Architektur-Bewertung"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Überprüfung der Konformität mit Architekturentscheidungen",
+            "correct": "Architekturanalyse"
+          },
+          {
+            "id": "b",
+            "text": "ATAM-Methode (Architecture Tradeoff Analysis Method)",
+            "correct": "Architektur-Bewertung"
+          },
+          {
+            "id": "c",
+            "text": "Qualitative Szenario-basierte Bewertung",
+            "correct": "Architektur-Bewertung"
+          },
+          {
+            "id": "d",
+            "text": "Prüfung auf zyklische Abhängigkeiten",
+            "correct": "Architekturanalyse"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "A",
+        "points": 1,
+        "question": "Welche Aussage zum Liskov Substitution Principle (LSP) ist korrekt?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Abgeleitete Klassen dürfen nicht die Verträge ihrer Basisklassen verletzten"
+          },
+          {
+            "id": "b",
+            "text": "Alle Klassen müssen von einer gemeinsamen Basisklasse erben"
+          },
+          {
+            "id": "c",
+            "text": "Es ist Liskov, ein berühmter Architekt des 19. Jahrhunderts"
+          },
+          {
+            "id": "d",
+            "text": "Es verbietet die Verwendung von Vererbung"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": 29,
+        "type": "P",
+        "points": 3,
+        "required": 3,
+        "question": "Welche DREI der folgenden Qualitätsmerkmale sind nach ISO/IEC 25010 wesentlich?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Funktionalität (Correctness, Appropriateness, Security)"
+          },
+          {
+            "id": "b",
+            "text": "Farbe der Benutzeroberfläche"
+          },
+          {
+            "id": "c",
+            "text": "Zuverlässigkeit (Maturity, Fault Tolerance, Recoverability)"
+          },
+          {
+            "id": "d",
+            "text": "Wartbarkeit (Modularity, Reusability, Analysability, Modifiability)"
+          },
+          {
+            "id": "e",
+            "text": "Anzahl der Developer im Team"
+          }
+        ],
+        "correct": [
+          "a",
+          "c",
+          "d"
+        ]
+      },
+      {
+        "id": 30,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist ein Architecture Decision Record (ADR)?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ein Videoprotokoll aller Architekturmeetings"
+          },
+          {
+            "id": "b",
+            "text": "Ein Dokument, das Architekturentscheidungen mit ihren Begründungen, Konsequenzen und Alternativen dokumentiert"
+          },
+          {
+            "id": "c",
+            "text": "Ein Vertrag mit dem Client über technische Details"
+          },
+          {
+            "id": "d",
+            "text": "Eine Liste aller gefundenen Bugs"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 31,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI der folgenden Charakteristiken sind typisch für lose Kopplung?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Komponenten sind unabhängig voneinander änderbar"
+          },
+          {
+            "id": "b",
+            "text": "Änderungen in einer Komponente erfordern Anpassungen in vielen anderen"
+          },
+          {
+            "id": "c",
+            "text": "Schnittstellen zwischen Komponenten sind minimal und stabil"
+          },
+          {
+            "id": "d",
+            "text": "Sie macht das System schwer zu verstehen"
+          }
+        ],
+        "correct": [
+          "a",
+          "c"
+        ]
+      },
+      {
+        "id": 32,
+        "type": "A",
+        "points": 2,
+        "question": "Welcher Aspekt ist am wichtigsten bei der Wahl eines Architekturmusters?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Die Popularität in der IT-Industrie"
+          },
+          {
+            "id": "b",
+            "text": "Die Anforderungen und Randbedingungen des spezifischen Systems"
+          },
+          {
+            "id": "c",
+            "text": "Die Vorliebe des CTO"
+          },
+          {
+            "id": "d",
+            "text": "Das älteste und bewährteste Muster"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 33,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die folgenden Entwurfsmuster als Erzeugungsmuster oder Verhaltensmuster ein:",
+        "categories": [
+          "Erzeugungsmuster",
+          "Verhaltensmuster"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Factory Pattern",
+            "correct": "Erzeugungsmuster"
+          },
+          {
+            "id": "b",
+            "text": "Observer Pattern",
+            "correct": "Verhaltensmuster"
+          },
+          {
+            "id": "c",
+            "text": "Singleton Pattern",
+            "correct": "Erzeugungsmuster"
+          },
+          {
+            "id": "d",
+            "text": "State Pattern",
+            "correct": "Verhaltensmuster"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zu Postel's Law sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sei konservativ bei dem, was du sendest"
+          },
+          {
+            "id": "b",
+            "text": "Sei liberal bei dem, was du akzeptierst"
+          },
+          {
+            "id": "c",
+            "text": "Es geht um die Geschichte der Telekommunikation"
+          },
+          {
+            "id": "d",
+            "text": "Es hilft bei der Gestaltung robuster Schnittstellen"
+          }
+        ],
+        "correct": [
+          "a",
+          "b"
+        ]
+      },
+      {
+        "id": 35,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist ein Stakeholder im Kontext der Softwarearchitektur?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nur die Person, die den Code schreibt"
+          },
+          {
+            "id": "b",
+            "text": "Eine Person oder Organisation mit Interesse an einer Architekturentscheidung oder dem System"
+          },
+          {
+            "id": "c",
+            "text": "Der CEO des Unternehmens"
+          },
+          {
+            "id": "d",
+            "text": "Eine externe Beratungsfirma"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 36,
+        "type": "P",
+        "points": 3,
+        "required": 3,
+        "question": "Welche DREI sind typische Stakeholder und ihre Anliegen für ein Softwaresystem?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Entwicklungsteam: Implementierbarkeit der Architektur"
+          },
+          {
+            "id": "b",
+            "text": "Betrieb: Infrastruktur- und Skalierungsanforderungen"
+          },
+          {
+            "id": "c",
+            "text": "Produktmanagement: Einhaltung von Zeitplänen und Budget"
+          },
+          {
+            "id": "d",
+            "text": "QA: Color-Scheme der GUI"
+          },
+          {
+            "id": "e",
+            "text": "Endnutzer: Funktionalität und Benutzerfreundlichkeit"
+          }
+        ],
+        "correct": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      {
+        "id": 37,
+        "type": "A",
+        "points": 2,
+        "question": "Welches der folgenden ist kein wesentlicher Bestandteil von arc42?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kontextsicht"
+          },
+          {
+            "id": "b",
+            "text": "Bausteinsicht"
+          },
+          {
+            "id": "c",
+            "text": "Laufzeitsicht"
+          },
+          {
+            "id": "d",
+            "text": "Speicherverbrauchsprognose"
+          }
+        ],
+        "correct": "d"
+      },
+      {
+        "id": 38,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zum Deployment sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Es ist rein ein Operations-Anliegen und Architekten müssen sich nicht darum kümmern"
+          },
+          {
+            "id": "b",
+            "text": "Es hat Auswirkungen auf architektonische Entscheidungen"
+          },
+          {
+            "id": "c",
+            "text": "DevOps-Praktiken können Deployment-Strategien vereinfachen"
+          },
+          {
+            "id": "d",
+            "text": "Containerisierung ist die einzige mögliche Deployment-Strategie"
+          }
+        ],
+        "correct": [
+          "b",
+          "c"
+        ]
+      },
+      {
+        "id": 39,
+        "type": "A",
+        "points": 2,
+        "question": "Was bedeutet 'konzeptionelle Integrität' in einer Architektur?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Alle Komponenten müssen identisch sein"
+          },
+          {
+            "id": "b",
+            "text": "Das System folgt einem konsistenten Design-Gedanke und einer einheitlichen Philosophie"
+          },
+          {
+            "id": "c",
+            "text": "Es ist eine spezielle Art von Sicherheitsprotokoll"
+          },
+          {
+            "id": "d",
+            "text": "Nur große Unternehmen können konzeptionelle Integrität erreichen"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 40,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die Aufgaben als gehörig zu Architekturentwurf oder Architekturanalyse ein:",
+        "categories": [
+          "Architekturentwurf",
+          "Architekturanalyse"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Systemzerlegung durchführen",
+            "correct": "Architekturentwurf"
+          },
+          {
+            "id": "b",
+            "text": "Existierende Architektur auf Risiken überprüfen",
+            "correct": "Architekturanalyse"
+          },
+          {
+            "id": "c",
+            "text": "Querschnittskonzepte entwerfen",
+            "correct": "Architekturentwurf"
+          },
+          {
+            "id": "d",
+            "text": "Metriken zur Codequalität auswerten",
+            "correct": "Architekturanalyse"
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "type": "A",
+        "points": 1,
+        "question": "Was ist das Ziel der hierarchischen Zerlegung eines Systems?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Die Komplexität zu erhöhen"
+          },
+          {
+            "id": "b",
+            "text": "Die Komplexität auf mehrere Ebenen zu verteilen und so besser handhabbar zu machen"
+          },
+          {
+            "id": "c",
+            "text": "Das System zu verlangsamen"
+          },
+          {
+            "id": "d",
+            "text": "Weniger Dokumentation zu schreiben"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 42,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI der folgenden Prinzipien gehören zu den SOLID-Prinzipien?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Dependency Inversion Principle"
+          },
+          {
+            "id": "b",
+            "text": "Simple Naming Convention"
+          },
+          {
+            "id": "c",
+            "text": "Interface Segregation Principle"
+          },
+          {
+            "id": "d",
+            "text": "Software Development Kit Principle"
+          }
+        ],
+        "correct": [
+          "a",
+          "c"
+        ]
+      },
+      {
+        "id": 43,
+        "type": "A",
+        "points": 2,
+        "question": "Welche Methode ist das Standard-Verfahren zur qualitativen Architekturbewertung nach iSAQB?",
+        "options": [
+          {
+            "id": "a",
+            "text": "ATAM (Architecture Tradeoff Analysis Method)"
+          },
+          {
+            "id": "b",
+            "text": "Agile Sprint Review"
+          },
+          {
+            "id": "c",
+            "text": "Continuous Integration Pipeline"
+          },
+          {
+            "id": "d",
+            "text": "Six Sigma"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": 44,
+        "type": "P",
+        "points": 2,
+        "required": 3,
+        "question": "Welche DREI der folgenden sind Phasen der ATAM-Methode?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Präsentation und Verständigung"
+          },
+          {
+            "id": "b",
+            "text": "Identifizierung von Ansätzen und -szenario-Analyse"
+          },
+          {
+            "id": "c",
+            "text": "Agile Sprint Planning"
+          },
+          {
+            "id": "d",
+            "text": "Priorierung von Szenarios und Analyse von Tradeoffs"
+          },
+          {
+            "id": "e",
+            "text": "Budgetgenehmigung durch Finanzabteilung"
+          }
+        ],
+        "correct": [
+          "a",
+          "b",
+          "d"
+        ]
+      },
+      {
+        "id": 45,
+        "type": "A",
+        "points": 2,
+        "question": "Wie sollten die Ansätze Top-down und Bottom-up bei der Architekturentwicklung kombiniert werden?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nur Top-down ist sinnvoll"
+          },
+          {
+            "id": "b",
+            "text": "Nur Bottom-up ist sinnvoll"
+          },
+          {
+            "id": "c",
+            "text": "Sie sollten iterativ kombiniert werden - Top-down für grobe Struktur, Bottom-up für Detaillierung"
+          },
+          {
+            "id": "d",
+            "text": "Die beiden dürfen nicht zusammen verwendet werden"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": 46,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die folgenden Architekturobjekte als Bausteine oder Beziehungen ein:",
+        "categories": [
+          "Bausteine",
+          "Beziehungen"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Component",
+            "correct": "Bausteine"
+          },
+          {
+            "id": "b",
+            "text": "Abhängigkeit",
+            "correct": "Beziehungen"
+          },
+          {
+            "id": "c",
+            "text": "Schnittstelle",
+            "correct": "Bausteine"
+          },
+          {
+            "id": "d",
+            "text": "Kommunikationskanal",
+            "correct": "Beziehungen"
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI der folgenden Aussagen über die Kontextsicht sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sie zeigt die Abhängigkeiten zwischen Komponenten des Systems"
+          },
+          {
+            "id": "b",
+            "text": "Sie zeigt die Grenzen des Systems und seine externe Schnittstellen"
+          },
+          {
+            "id": "c",
+            "text": "Sie ist die erste Sicht, die bei der Dokumentation erstellt wird"
+          },
+          {
+            "id": "d",
+            "text": "Sie schließt externe Systeme aus"
+          }
+        ],
+        "correct": [
+          "b",
+          "c"
+        ]
+      },
+      {
+        "id": 48,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist ein technischer Durchstich im Kontext der Architekturentwicklung?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ein Fehler, der die Architektur durchbricht"
+          },
+          {
+            "id": "b",
+            "text": "Eine schnelle Implementierung, die von oben bis unten durch alle Schichten des Systems geht, um Risiken zu validieren"
+          },
+          {
+            "id": "c",
+            "text": "Ein großes Loch in der Systemarchitektur"
+          },
+          {
+            "id": "d",
+            "text": "Eine Art von Sicherheitsverletzung"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 49,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI der folgenden sind häufige Dokumenttypen für Softwarearchitekturen?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Zentrale Architekturbeschreibung"
+          },
+          {
+            "id": "b",
+            "text": "Persönliche Tagebücher des Architekten"
+          },
+          {
+            "id": "c",
+            "text": "Architecture Decision Records (ADR)"
+          },
+          {
+            "id": "d",
+            "text": "E-Mail-Verkehr mit Clients"
+          }
+        ],
+        "correct": [
+          "a",
+          "c"
+        ]
+      },
+      {
+        "id": 50,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist das Interface Segregation Principle (ISP)?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Clients sollten nicht von Schnittstellen abhängen, die sie nicht verwenden"
+          },
+          {
+            "id": "b",
+            "text": "Alle Schnittstellen müssen identisch sein"
+          },
+          {
+            "id": "c",
+            "text": "Es geht um physische Isolation von Servern"
+          },
+          {
+            "id": "d",
+            "text": "Schnittstellen sollten so groß wie möglich sein"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": 51,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die Szenarien als funktionales oder nicht-funktionales Szenario ein:",
+        "categories": [
+          "funktional",
+          "nicht-funktional"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Benutzer fügt einen neuen Kunden hinzu",
+            "correct": "funktional"
+          },
+          {
+            "id": "b",
+            "text": "System soll 1000 Anfragen pro Sekunde verarbeiten",
+            "correct": "nicht-funktional"
+          },
+          {
+            "id": "c",
+            "text": "Benutzer meldet sich an",
+            "correct": "funktional"
+          },
+          {
+            "id": "d",
+            "text": "Verfügbarkeit muss 99,9% sein",
+            "correct": "nicht-funktional"
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zu Randbedingungen sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sie sind obligatorische Beschränkungen für den Architekturentwurf"
+          },
+          {
+            "id": "b",
+            "text": "Sie können ignoriert werden, wenn sie unbequem sind"
+          },
+          {
+            "id": "c",
+            "text": "Sie können technischer, organisatorischer oder regulatorischer Natur sein"
+          },
+          {
+            "id": "d",
+            "text": "Sie beeinflussen direkt die Architekturentscheidungen"
+          }
+        ],
+        "correct": [
+          "a",
+          "d"
+        ]
+      },
+      {
+        "id": 53,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist eine Aggregation im Domain-Driven Design?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Eine Datenbankoperation zum Summieren von Werten"
+          },
+          {
+            "id": "b",
+            "text": "Eine Gruppierung von Entitäten und Wertobjekten mit einer Root-Entität, die als Einheit behandelt wird"
+          },
+          {
+            "id": "c",
+            "text": "Ein Security-Muster"
+          },
+          {
+            "id": "d",
+            "text": "Eine Art von API-Schnittstelle"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 54,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI sind essenzielle Aufgaben bei der Gestaltung von Schnittstellen?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Klare Verträge zwischen Bausteinen definieren"
+          },
+          {
+            "id": "b",
+            "text": "Alle Implementierungsdetails offenlegen"
+          },
+          {
+            "id": "c",
+            "text": "Stabilität der Schnittstelle über die Zeit gewährleisten"
+          },
+          {
+            "id": "d",
+            "text": "Die Schnittstelle so komplex wie möglich machen"
+          }
+        ],
+        "correct": [
+          "a",
+          "c"
+        ]
+      },
+      {
+        "id": 55,
+        "type": "A",
+        "points": 2,
+        "question": "Welches Muster wird typischerweise für die asynchrone Kommunikation zwischen Services verwendet?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Direct Method Invocation"
+          },
+          {
+            "id": "b",
+            "text": "Message Broker / Enterprise Service Bus (ESB)"
+          },
+          {
+            "id": "c",
+            "text": "Synchronous REST API"
+          },
+          {
+            "id": "d",
+            "text": "Shared Memory"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 56,
+        "type": "K",
+        "points": 2,
+        "question": "Klassifizieren Sie die Qualitätsmerkmale als Produktqualität oder Qualität in Use:",
+        "categories": [
+          "Produktqualität",
+          "Qualität in Use"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Performance-Effizienz des Systems",
+            "correct": "Produktqualität"
+          },
+          {
+            "id": "b",
+            "text": "Zufriedenheit des Endbenutzers",
+            "correct": "Qualität in Use"
+          },
+          {
+            "id": "c",
+            "text": "Sicherheit gegen Angriffe",
+            "correct": "Produktqualität"
+          },
+          {
+            "id": "d",
+            "text": "Effektivität beim Erreichen der Benutzerziele",
+            "correct": "Qualität in Use"
+          }
+        ]
+      },
+      {
+        "id": 57,
+        "type": "P",
+        "points": 3,
+        "required": 2,
+        "question": "Welche ZWEI der folgenden sind wichtige Aspekte der Architektur-Evolution?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Die Architektur muss sich mit neuen Anforderungen und Technologien anpassen"
+          },
+          {
+            "id": "b",
+            "text": "Einmal entschiedene Architektur darf nie geändert werden"
+          },
+          {
+            "id": "c",
+            "text": "Regelmäßiges Refactoring und Redesign sind notwendig"
+          },
+          {
+            "id": "d",
+            "text": "Architektur sollte 'future-proof' sein und alle möglichen zukünftigen Anforderungen vorhersehen"
+          }
+        ],
+        "correct": [
+          "a",
+          "c"
+        ]
+      },
+      {
+        "id": 58,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist das Hauptmerkmal des Model-View-Presenter (MVP) Patterns?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Presenter koordiniert die Kommunikation zwischen Model und View"
+          },
+          {
+            "id": "b",
+            "text": "View und Model sind direkt gekoppelt"
+          },
+          {
+            "id": "c",
+            "text": "Es ist nur für Web-Anwendungen geeignet"
+          },
+          {
+            "id": "d",
+            "text": "Presenter enthält alle Geschäftslogik direkt"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": 59,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen über Refactoring sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Es ändert das externe Verhalten des Codes nicht"
+          },
+          {
+            "id": "b",
+            "text": "Es ist eine notwendige Aktivität zur Verbesserung der Architektur"
+          },
+          {
+            "id": "c",
+            "text": "Refactoring führt immer zu Bugs"
+          },
+          {
+            "id": "d",
+            "text": "Es kann die Wartbarkeit und Verständlichkeit des Codes verbessern"
+          }
+        ],
+        "correct": [
+          "a",
+          "d"
+        ]
+      },
+      {
+        "id": 60,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist das Proxy-Pattern?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ein Muster, das einen Platzhalter für ein anderes Objekt bereitstellt, um dessen Zugriff zu kontrollieren"
+          },
+          {
+            "id": "b",
+            "text": "Ein Muster für netzwerkbasierte Kommunikation"
+          },
+          {
+            "id": "c",
+            "text": "Ein Muster für Benutzerverwaltung"
+          },
+          {
+            "id": "d",
+            "text": "Ein Muster für Fehlerbehandlung"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": 61,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die Verfahren als Analyse oder Bewertung ein:",
+        "categories": [
+          "Analyse",
+          "Bewertung"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Überprüfung auf Architekturregeln-Konformität",
+            "correct": "Analyse"
+          },
+          {
+            "id": "b",
+            "text": "ATAM durchführen",
+            "correct": "Bewertung"
+          },
+          {
+            "id": "c",
+            "text": "Abhängigkeitsanalyse",
+            "correct": "Analyse"
+          },
+          {
+            "id": "d",
+            "text": "Szenariobasierte Bewertung",
+            "correct": "Bewertung"
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI der folgenden Aussagen über API-Design sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "APIs sollten konsistent und vorhersehbar sein"
+          },
+          {
+            "id": "b",
+            "text": "Breaking Changes sollten vermieden werden"
+          },
+          {
+            "id": "c",
+            "text": "APIs sollten so viel Funktionalität wie möglich enthalten"
+          },
+          {
+            "id": "d",
+            "text": "APIs sollten dokumentiert sein"
+          }
+        ],
+        "correct": [
+          "a",
+          "b"
+        ]
+      },
+      {
+        "id": 63,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist die Verteilungssicht (Deployment View) einer Architektur?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Die Darstellung der statischen Komponenten-Struktur"
+          },
+          {
+            "id": "b",
+            "text": "Die Abbildung von Softwarekomponenten auf Hardware und Infrastruktur"
+          },
+          {
+            "id": "c",
+            "text": "Die Laufzeitverhalten des Systems"
+          },
+          {
+            "id": "d",
+            "text": "Die Benutzer-Interface Struktur"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 64,
+        "type": "P",
+        "points": 2,
+        "required": 3,
+        "question": "Welche DREI Punkte sind wichtig bei der Erstellung einer guten Architektur-Dokumentation?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Standardisierte Organisationsstruktur verwenden"
+          },
+          {
+            "id": "b",
+            "text": "So technisch wie möglich sein"
+          },
+          {
+            "id": "c",
+            "text": "Regelmäßig aktualisiert werden"
+          },
+          {
+            "id": "d",
+            "text": "Wesentliche Entscheidungen begründen"
+          },
+          {
+            "id": "e",
+            "text": "Eine unterschiedliche Terminologie für jede Sicht verwenden"
+          }
+        ],
+        "correct": [
+          "a",
+          "c",
+          "d"
+        ]
+      },
+      {
+        "id": 65,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist das Decorator-Pattern?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ein Muster zur Ausgestaltung von Benutzeroberflächen"
+          },
+          {
+            "id": "b",
+            "text": "Ein Muster zur dynamischen Erweiterung von Objektverhalten zur Laufzeit"
+          },
+          {
+            "id": "c",
+            "text": "Ein Muster für die Verwaltung von Konfigurationsdaten"
+          },
+          {
+            "id": "d",
+            "text": "Ein Muster für Datenschutz"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 66,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die Qualitätsmerkmale als Reliabilität oder Performanz ein:",
+        "categories": [
+          "Reliabilität",
+          "Performanz"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Verfügbarkeit",
+            "correct": "Reliabilität"
+          },
+          {
+            "id": "b",
+            "text": "Durchsatzkapa des Systems",
+            "correct": "Performanz"
+          },
+          {
+            "id": "c",
+            "text": "Fehlertoleranz",
+            "correct": "Reliabilität"
+          },
+          {
+            "id": "d",
+            "text": "Antwortzeit",
+            "correct": "Performanz"
+          }
+        ]
+      },
+      {
+        "id": 67,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zum Broker-Pattern sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Der Broker vermittelt die Kommunikation zwischen dezentralisierten Komponenten"
+          },
+          {
+            "id": "b",
+            "text": "Es ist ein Muster für Monolithen"
+          },
+          {
+            "id": "c",
+            "text": "Services wissen nicht direkt von der Existenz anderer Services"
+          },
+          {
+            "id": "d",
+            "text": "Es erhöht die Kopplung zwischen Services"
+          }
+        ],
+        "correct": [
+          "a",
+          "c"
+        ]
+      },
+      {
+        "id": 68,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist eine universelle Sprache (Ubiquitous Language) im Domain-Driven Design?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Eine Programmiersprache, die überall verwendet wird"
+          },
+          {
+            "id": "b",
+            "text": "Eine gemeinsame Sprache des Teams um die Domäne herum, die in Code, Dokumentation und Kommunikation konsistent verwendet wird"
+          },
+          {
+            "id": "c",
+            "text": "Die englische Sprache als Standard"
+          },
+          {
+            "id": "d",
+            "text": "Ein Glossar von Datenbankfeldern"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 69,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zu Pipes and Filters sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Filter sind unabhängige Komponenten, die Daten transformieren"
+          },
+          {
+            "id": "b",
+            "text": "Pipes sind die Verbindungen zwischen Filter"
+          },
+          {
+            "id": "c",
+            "text": "Es ist das beste Muster für alle Arten von Systemen"
+          },
+          {
+            "id": "d",
+            "text": "Das Muster funktioniert gut für datengetriebene, sequenzielle Verarbeitung"
+          }
+        ],
+        "correct": [
+          "a",
+          "d"
+        ]
+      },
+      {
+        "id": 70,
+        "type": "A",
+        "points": 2,
+        "question": "Welcher der folgenden Gründe für Architekturanalyse ist der WICHTIGSTE?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Um den Code zu kritisieren"
+          },
+          {
+            "id": "b",
+            "text": "Um Risiken bezüglich der Erreichung von Anforderungen zu identifizieren"
+          },
+          {
+            "id": "c",
+            "text": "Um Entwickler zu beschuldigen"
+          },
+          {
+            "id": "d",
+            "text": "Um Arbeit zu beschäftigen"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 71,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die Stakeholder-Arten ein:",
+        "categories": [
+          "Technische Stakeholder",
+          "Geschäftliche Stakeholder"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Entwicklungsteam",
+            "correct": "Technische Stakeholder"
+          },
+          {
+            "id": "b",
+            "text": "Produktmanagement",
+            "correct": "Geschäftliche Stakeholder"
+          },
+          {
+            "id": "c",
+            "text": "QA/Tester",
+            "correct": "Technische Stakeholder"
+          },
+          {
+            "id": "d",
+            "text": "Betrieb",
+            "correct": "Technische Stakeholder"
+          }
+        ]
+      },
+      {
+        "id": 72,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zu technischen Konzepten sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sie können sich über mehrere Bausteine erstrecken"
+          },
+          {
+            "id": "b",
+            "text": "Sie beschreiben immer Entwurfsmuster"
+          },
+          {
+            "id": "c",
+            "text": "Sicherheit und Persistenz sind typische Beispiele"
+          },
+          {
+            "id": "d",
+            "text": "Sie können Fehlerbehandlung und Logging umfassen"
+          }
+        ],
+        "correct": [
+          "a",
+          "d"
+        ]
+      },
+      {
+        "id": 73,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist das Blackboard-Pattern?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ein Muster, das ein zentrales Repository für Daten und eine Sammlung spezialisierter, unabhängiger Module nutzt"
+          },
+          {
+            "id": "b",
+            "text": "Ein Muster nur für Bildungssysteme"
+          },
+          {
+            "id": "c",
+            "text": "Ein Muster für die Präsentation von Daten"
+          },
+          {
+            "id": "d",
+            "text": "Ein Muster für Version Control"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": 74,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI der folgenden Aussagen zum Observer-Pattern sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ermöglicht lose Kopplung zwischen Objekten"
+          },
+          {
+            "id": "b",
+            "text": "Ein Observer wird benachrichtigt, wenn sich der Zustand des Observables ändert"
+          },
+          {
+            "id": "c",
+            "text": "Es ist identisch mit dem Adapter-Pattern"
+          },
+          {
+            "id": "d",
+            "text": "Mehrere Observer können ein Observable beobachten"
+          }
+        ],
+        "correct": [
+          "a",
+          "b"
+        ]
+      },
+      {
+        "id": 75,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist das State-Pattern?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ein Muster zur Speicherung von Statusinformationen in einer Datenbank"
+          },
+          {
+            "id": "b",
+            "text": "Ein Muster, das einem Objekt erlaubt, sein Verhalten zu ändern, wenn sich sein Zustand ändert"
+          },
+          {
+            "id": "c",
+            "text": "Ein Muster für statistische Analysen"
+          },
+          {
+            "id": "d",
+            "text": "Ein Muster nur für Interfaces"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 76,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die Aufgaben als direkt oder indirekt von Architekten durchzuführen ein:",
+        "categories": [
+          "direkt vom Architekten",
+          "indirekt (durch andere Rollen)"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Architekturentscheidungen treffen",
+            "correct": "direkt vom Architekten"
+          },
+          {
+            "id": "b",
+            "text": "Code reviewen für Architekturkonformität",
+            "correct": "indirekt (durch andere Rollen)"
+          },
+          {
+            "id": "c",
+            "text": "Anforderungen klären",
+            "correct": "direkt vom Architekten"
+          },
+          {
+            "id": "d",
+            "text": "Alle Unit-Tests schreiben",
+            "correct": "indirekt (durch andere Rollen)"
+          }
+        ]
+      },
+      {
+        "id": 77,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI der folgenden sind kritische Erfolgsfaktoren für gutes Architekturdesign?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kommunikation mit allen Stakeholdern"
+          },
+          {
+            "id": "b",
+            "text": "Verwendung des teuersten Tools"
+          },
+          {
+            "id": "c",
+            "text": "Klare Dokumentation und Begründung"
+          },
+          {
+            "id": "d",
+            "text": "Die Vermeidung jeglicher Feedback-Schleifen"
+          }
+        ],
+        "correct": [
+          "a",
+          "c"
+        ]
+      },
+      {
+        "id": 78,
+        "type": "A",
+        "points": 2,
+        "question": "Welches Entwurfsmuster wird verwendet, um eine Vielzahl von Objekten mit minimalen Speichern zu erstellen?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Flyweight-Pattern"
+          },
+          {
+            "id": "b",
+            "text": "Singleton-Pattern"
+          },
+          {
+            "id": "c",
+            "text": "Prototype-Pattern"
+          },
+          {
+            "id": "d",
+            "text": "Builder-Pattern"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": 79,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zu Kanban für Architekturentwicklung sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Es ermöglicht iterative und inkrementelle Architekturentwicklung"
+          },
+          {
+            "id": "b",
+            "text": "Es verhindert jegliche Planung"
+          },
+          {
+            "id": "c",
+            "text": "Es erlaubt, kontinuierlich die Architektur anzupassen"
+          },
+          {
+            "id": "d",
+            "text": "Es ist nur für Softwareentwicklung, nicht für Architektur relevant"
+          }
+        ],
+        "correct": [
+          "a",
+          "c"
+        ]
+      },
+      {
+        "id": 80,
+        "type": "A",
+        "points": 2,
+        "question": "Was bedeutet 'Architekturrelevanz'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Eine Entscheidung ist relevant für die Architektur, wenn sie langfristige Auswirkungen auf das System hat"
+          },
+          {
+            "id": "b",
+            "text": "Nur Entscheidungen sind relevant, die vom CEO getroffen werden"
+          },
+          {
+            "id": "c",
+            "text": "Es geht um Marketing-Relevanz"
+          },
+          {
+            "id": "d",
+            "text": "Jede Entscheidung ist automatisch architekturrelevant"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": 81,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die Begriffe als Entwurfsprinzip oder Entwurfsmuster ein:",
+        "categories": [
+          "Entwurfsprinzip",
+          "Entwurfsmuster"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "DRY (Don't Repeat Yourself)",
+            "correct": "Entwurfsprinzip"
+          },
+          {
+            "id": "b",
+            "text": "Singleton",
+            "correct": "Entwurfsmuster"
+          },
+          {
+            "id": "c",
+            "text": "YAGNI (You Aren't Gonna Need It)",
+            "correct": "Entwurfsprinzip"
+          },
+          {
+            "id": "d",
+            "text": "Factory",
+            "correct": "Entwurfsmuster"
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zu Maßnahmen für Qualitätsanforderungen sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Taktiken sind konkrete technische Lösungen zur Erreichung von Qualitätsanforderungen"
+          },
+          {
+            "id": "b",
+            "text": "Eine einzelne Taktik kann mehrere Qualitätsanforderungen beeinflussen"
+          },
+          {
+            "id": "c",
+            "text": "Praktiken sind immer Muster aus der Literatur"
+          },
+          {
+            "id": "d",
+            "text": "Das Verstehen von Tradeoffs zwischen Taktiken ist wichtig"
+          }
+        ],
+        "correct": [
+          "a",
+          "d"
+        ]
+      },
+      {
+        "id": 83,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist das Mediator-Pattern?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ein Muster, das eine zentrale Komponente nutzt, um die Kommunikation zwischen anderen Komponenten zu koordinieren"
+          },
+          {
+            "id": "b",
+            "text": "Ein Muster für Konfliktauflösung in Meetings"
+          },
+          {
+            "id": "c",
+            "text": "Ein Muster nur für rechtliche Angelegenheiten"
+          },
+          {
+            "id": "d",
+            "text": "Ein Muster für die Verwaltung von Zeitzonen"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": 84,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zu Prototypen sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sie werden eingesetzt, um Architekturrisiken früh zu validieren"
+          },
+          {
+            "id": "b",
+            "text": "Ein Prototyp muss produktionsreif sein"
+          },
+          {
+            "id": "c",
+            "text": "Sie können schnell zu wenig Architektur führen"
+          },
+          {
+            "id": "d",
+            "text": "Sie helfen bei der Validierung von technischen Entscheidungen"
+          }
+        ],
+        "correct": [
+          "a",
+          "d"
+        ]
+      },
+      {
+        "id": 85,
+        "type": "A",
+        "points": 2,
+        "question": "Welche Aussage zum Repository-Pattern ist korrekt?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Es ist ein Muster für Version Control"
+          },
+          {
+            "id": "b",
+            "text": "Es kapselt den Datenzugriff und vermittelt zwischen Domain und Persistence Layer"
+          },
+          {
+            "id": "c",
+            "text": "Es ist nur für Relationale Datenbanken geeignet"
+          },
+          {
+            "id": "d",
+            "text": "Es macht die Architektur immer einfacher"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 86,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die Anforderungstypen korrekt ein:",
+        "categories": [
+          "Anforderung",
+          "Randbedingung"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Das System soll 1000 Nutzer gleichzeitig unterstützen",
+            "correct": "Anforderung"
+          },
+          {
+            "id": "b",
+            "text": "Das System muss mit Java 11 implementiert werden",
+            "correct": "Randbedingung"
+          },
+          {
+            "id": "c",
+            "text": "Das System soll Benutzerdaten verschlüsseln",
+            "correct": "Anforderung"
+          },
+          {
+            "id": "d",
+            "text": "Das Projekt muss innerhalb von 6 Monaten abgeschlossen sein",
+            "correct": "Randbedingung"
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aspekte sind wichtig bei der Integration zwischen Systemen?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Enge Kopplung für bessere Performance"
+          },
+          {
+            "id": "b",
+            "text": "Klare und stabile Schnittstellen"
+          },
+          {
+            "id": "c",
+            "text": "Entkopplung durch klare Grenzen"
+          },
+          {
+            "id": "d",
+            "text": "Die Systeme sollten das gleiche Datenbankschema teilen"
+          }
+        ],
+        "correct": [
+          "b",
+          "c"
+        ]
+      },
+      {
+        "id": 88,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist das Strategy-Pattern?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ein Muster zur Verwaltung von Geschäftsstrategien"
+          },
+          {
+            "id": "b",
+            "text": "Ein Muster, das eine Familie von Algorithmen kapselt und deren Austauschbarkeit ermöglicht"
+          },
+          {
+            "id": "c",
+            "text": "Ein Muster für Projektplanung"
+          },
+          {
+            "id": "d",
+            "text": "Ein Muster nur für Games"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 89,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zu Sicherheit als Qualitätsmerkmal sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sie muss von Anfang an bei der Architektur bedacht werden"
+          },
+          {
+            "id": "b",
+            "text": "Sie kann als Nachrüstung hinzugefügt werden"
+          },
+          {
+            "id": "c",
+            "text": "Sie ist ein nicht-funktionales Qualitätsmerkmal"
+          },
+          {
+            "id": "d",
+            "text": "Sie hat oft Auswirkungen auf andere Qualitätsmerkmale wie Performance"
+          }
+        ],
+        "correct": [
+          "a",
+          "d"
+        ]
+      },
+      {
+        "id": 90,
+        "type": "A",
+        "points": 2,
+        "question": "Welches Pattern wird für eine Server-Umgebung mit mehreren Services empfohlen?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Monolith-Pattern"
+          },
+          {
+            "id": "b",
+            "text": "Load Balancing und Service Discovery"
+          },
+          {
+            "id": "c",
+            "text": "Direkte Punkt-zu-Punkt-Verbindungen"
+          },
+          {
+            "id": "d",
+            "text": "Alle Services in einem Process"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 91,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die Themen als Architekturthemen oder nicht-Architekturthemen ein:",
+        "categories": [
+          "Architekturthema",
+          "nicht Architekturthema"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Auswahl des Datenbankmodells",
+            "correct": "Architekturthema"
+          },
+          {
+            "id": "b",
+            "text": "Variablennamenanforderungen",
+            "correct": "nicht Architekturthema"
+          },
+          {
+            "id": "c",
+            "text": "Kommunikationsprotokolle zwischen Modulen",
+            "correct": "Architekturthema"
+          },
+          {
+            "id": "d",
+            "text": "Tabellierung in IDEs",
+            "correct": "nicht Architekturthema"
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zu DevOps sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Es ist eine Kultur, die Entwicklung und Betrieb zusammenbringt"
+          },
+          {
+            "id": "b",
+            "text": "Es erlaubt schnellere und häufigere Deployments"
+          },
+          {
+            "id": "c",
+            "text": "Es macht Architekturentscheidungen überflüssig"
+          },
+          {
+            "id": "d",
+            "text": "Es erfordert automatisierte Tests und Monitoring"
+          }
+        ],
+        "correct": [
+          "a",
+          "b"
+        ]
+      },
+      {
+        "id": 93,
+        "type": "A",
+        "points": 2,
+        "question": "Welche Aussage zu Kontextabhängigkeit von Systemen ist am treffendsten?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Systeme existieren isoliert ohne Umgebung"
+          },
+          {
+            "id": "b",
+            "text": "Die Umgebung eines Systems hat keinen Einfluss auf die Architektur"
+          },
+          {
+            "id": "c",
+            "text": "Architekturentscheidungen müssen im Kontext der Systemumgebung und Geschäftsziele getroffen werden"
+          },
+          {
+            "id": "d",
+            "text": "Alle Systeme haben die gleiche optimale Architektur"
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "id": 94,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zu Metriken für Architekturbewertung sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sie können helfen, die Codequalität zu quantifizieren"
+          },
+          {
+            "id": "b",
+            "text": "Sie sind vollständig verlässlich für alle Situationen"
+          },
+          {
+            "id": "c",
+            "text": "Sie müssen im Kontext der Architektur interpretiert werden"
+          },
+          {
+            "id": "d",
+            "text": "Sie ersetzen vollständig menschliche Bewertung"
+          }
+        ],
+        "correct": [
+          "a",
+          "c"
+        ]
+      },
+      {
+        "id": 95,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist das Command-Pattern?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ein Muster, das Anfragen als Objekte kapselt, um Operationen parametrisierbar zu machen"
+          },
+          {
+            "id": "b",
+            "text": "Ein Muster für Kommandozeilenschnittstellen"
+          },
+          {
+            "id": "c",
+            "text": "Ein Muster für militärische Befehlsketten"
+          },
+          {
+            "id": "d",
+            "text": "Ein Muster nur für Webserver"
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "id": 96,
+        "type": "K",
+        "points": 2,
+        "question": "Ordnen Sie die Aktivitäten als Teil der Designphase oder der Umsetzungsphase ein:",
+        "categories": [
+          "Designphase",
+          "Umsetzungsphase"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "text": "Architekturentscheidungen treffen",
+            "correct": "Designphase"
+          },
+          {
+            "id": "b",
+            "text": "Code programmieren und implementieren",
+            "correct": "Umsetzungsphase"
+          },
+          {
+            "id": "c",
+            "text": "Schnittstellen definieren",
+            "correct": "Designphase"
+          },
+          {
+            "id": "d",
+            "text": "Komponenten konstruieren",
+            "correct": "Umsetzungsphase"
+          }
+        ]
+      },
+      {
+        "id": 97,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zur Rolle des Softwarearchitekten sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Der Architekt muss in allen technischen Aspekten ein Experte sein"
+          },
+          {
+            "id": "b",
+            "text": "Der Architekt sollte gute Kommunikationsfähigkeiten haben"
+          },
+          {
+            "id": "c",
+            "text": "Der Architekt sollte ausschließlich allein arbeiten"
+          },
+          {
+            "id": "d",
+            "text": "Der Architekt muss gut mit verschiedenen Stakeholdern zusammenarbeiten können"
+          }
+        ],
+        "correct": [
+          "b",
+          "d"
+        ]
+      },
+      {
+        "id": 98,
+        "type": "A",
+        "points": 2,
+        "question": "Was ist Goodharts Gesetz im Kontext von Metriken?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ein Naturgesetz der Physik"
+          },
+          {
+            "id": "b",
+            "text": "Wenn eine Metrik das Ziel wird, ist sie kein gutes Maß mehr"
+          },
+          {
+            "id": "c",
+            "text": "Eine Gerichtsentscheidung"
+          },
+          {
+            "id": "d",
+            "text": "Ein Programmierbares Framework"
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "id": 99,
+        "type": "P",
+        "points": 2,
+        "required": 2,
+        "question": "Welche ZWEI Aussagen zu zyklomatischer Komplexität sind KORREKT?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sie misst die Anzahl unabhängiger Pfade durch Code"
+          },
+          {
+            "id": "b",
+            "text": "Sie ist ein absolutes Qualitätsmerkmal"
+          },
+          {
+            "id": "c",
+            "text": "Sie kann zur Identifizierung von problematischem Code hilfreich sein"
+          },
+          {
+            "id": "d",
+            "text": "Sie muss immer unter 3 liegen"
+          }
+        ],
+        "correct": [
+          "a",
+          "c"
+        ]
+      },
+      {
+        "id": 100,
+        "type": "A",
+        "points": 2,
+        "question": "Welche ist die FUNDAMENTALSTE Fähigkeit eines guten Softwarearchitekten?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Komplexe Probleme in einfacherer Struktur zu denken und zu kommunizieren"
+          },
+          {
+            "id": "b",
+            "text": "Jeden Code auswendig zu kennen"
+          },
+          {
+            "id": "c",
+            "text": "Alle Bugs selbst zu beheben"
+          },
+          {
+            "id": "d",
+            "text": "Die neuesten Technologien zu kennen"
+          }
+        ],
+        "correct": "a"
+      }
+    ]
+  }
+}
